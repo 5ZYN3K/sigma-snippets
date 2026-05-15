@@ -1,0 +1,32 @@
+{
+  "name": "sigma-snippets",
+  "displayName": "SigmaSnippets",
+  "description": "A collection of useful snippets for C#, .NET MAUI, React and modern web development.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+  "snippets": [
+    {
+      "language": "javascript",
+      "path": "./snippets/snippets.code-snippets"
+    },
+    {
+      "language": "csharp",
+      "path": "./snippets/snippets.code-snippets"
+    },
+    {
+      "language": "javascriptreact",
+      "path": "./snippets/snippets.code-snippets"
+    },
+    {
+      "language": "typescriptreact",
+      "path": "./snippets/snippets.code-snippets"
+    }
+  ]
+}
+}

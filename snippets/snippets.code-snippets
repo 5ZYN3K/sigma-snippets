@@ -1,0 +1,180 @@
+{
+  "React Component": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "rfc",
+    "body": [
+      "export default function $1() {",
+      "  return (",
+      "    <div>$1</div>",
+      "  )",
+      "}"
+    ],
+    "description": "React functional component"
+  },
+
+  "Console WriteLine": {
+    "scope": "csharp",
+    "prefix": "cw",
+    "body": [
+      "Console.WriteLine($1);"
+    ],
+    "description": "C# Console.WriteLine"
+  },
+
+  "Express Starter": {
+    "scope": "javascript",
+    "prefix": "expressstart",
+    "body": [
+      "const express = require('express');",
+      "const app = express();",
+      "",
+      "app.get('/', (req, res) => {",
+      "    res.send('Hello');",
+      "});",
+      "",
+      "app.listen(3000);"
+    ],
+    "description": "Express starter"
+  },
+  
+  "NWD (Euclidean)": {
+    "prefix": "nwd",
+    "body": [
+      "int NWD(int a, int b)",
+      "{",
+      "    while (b != 0)",
+      "    {",
+      "        int temp = b;",
+      "        b = a % b;",
+      "        a = temp;",
+      "    }",
+      "    return a;",
+      "}"
+    ],
+    "description": "Największy wspólny dzielnik"
+  },
+
+  "NWW": {
+    "prefix": "nww",
+    "body": [
+      "int NWD(int a, int b)",
+      "{",
+      "    while (b != 0)",
+      "    {",
+      "        int temp = b;",
+      "        b = a % b;",
+      "        a = temp;",
+      "    }",
+      "    return a;",
+      "}",
+      "",
+      "int NWW(int a, int b)",
+      "{",
+      "    return (a * b) / NWD(a, b);",
+      "}"
+    ],
+    "description": "Najmniejsza wspólna wielokrotność"
+  },
+
+  "Silnia": {
+    "prefix": "silnia",
+    "body": [
+      "int Silnia(int n)",
+      "{",
+      "    int wynik = 1;",
+      "    for (int i = 1; i <= n; i++)",
+      "    {",
+      "        wynik *= i;",
+      "    }",
+      "    return wynik;",
+      "}"
+    ],
+    "description": "Silnia iteracyjna"
+  },
+
+  "Fibonacci": {
+    "prefix": "fib",
+    "body": [
+      "int Fib(int n)",
+      "{",
+      "    if (n <= 1) return n;",
+      "",
+      "    int a = 0, b = 1;",
+      "    for (int i = 2; i <= n; i++)",
+      "    {",
+      "        int temp = a + b;",
+      "        a = b;",
+      "        b = temp;",
+      "    }",
+      "    return b;",
+      "}"
+    ],
+    "description": "Fibonacci iteracyjny"
+  },
+
+  "Linear Search": {
+    "prefix": "linearsearch",
+    "body": [
+      "int LinearSearch(int[] arr, int target)",
+      "{",
+      "    for (int i = 0; i < arr.Length; i++)",
+      "    {",
+      "        if (arr[i] == target)",
+      "            return i;",
+      "    }",
+      "    return -1;",
+      "}"
+    ],
+    "description": "Wyszukiwanie liniowe"
+  },
+
+  "Binary Search": {
+    "prefix": "binarysearch",
+    "body": [
+      "int BinarySearch(int[] arr, int target)",
+      "{",
+      "    int left = 0;",
+      "    int right = arr.Length - 1;",
+      "",
+      "    while (left <= right)",
+      "    {",
+      "        int mid = (left + right) / 2;",
+      "",
+      "        if (arr[mid] == target)",
+      "            return mid;",
+      "",
+      "        if (arr[mid] < target)",
+      "            left = mid + 1;",
+      "        else",
+      "            right = mid - 1;",
+      "    }",
+      "",
+      "    return -1;",
+      "}"
+    ],
+    "description": "Wyszukiwanie binarne"
+  },
+
+  "Bubble Sort": {
+    "prefix": "bubblesort",
+    "body": [
+      "void BubbleSort(int[] arr)",
+      "{",
+      "    for (int i = 0; i < arr.Length; i++)",
+      "    {",
+      "        for (int j = 0; j < arr.Length - i - 1; j++)",
+      "        {",
+      "            if (arr[j] > arr[j + 1])",
+      "            {",
+      "                int temp = arr[j];",
+      "                arr[j] = arr[j + 1];",
+      "                arr[j + 1] = temp;",
+      "            }",
+      "        }",
+      "    }",
+      "}"
+    ],
+    "description": "Sortowanie bąbelkowe"
+  }
+
+}

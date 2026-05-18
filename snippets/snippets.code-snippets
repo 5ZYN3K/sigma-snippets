@@ -1889,5 +1889,145 @@
     "}"
   ],
   "description": "Właściwości C# {get; set;} + full properties INF.04"
+},
+"MAUI Label": {
+  "scope": "xml",
+  "prefix": "^MAUIlabel",
+  "body": [
+    "<Label x:Name=\"myLabel\" Text=\"Hello\" FontSize=\"20\" TextColor=\"Black\" HorizontalOptions=\"Center\" />",
+    "",
+    "// C#",
+    "string tekst = myLabel.Text;"
+  ],
+  "description": "Label MAUI - wyświetlanie tekstu"
+},
+"MAUI Button": {
+  "scope": "xml",
+  "prefix": "^MAUIbutton",
+  "body": [
+    "<Button x:Name=\"myButton\" Text=\"Kliknij\" Clicked=\"OnButtonClicked\" BackgroundColor=\"Blue\" TextColor=\"White\" />",
+    "",
+    "// C#",
+    "void OnButtonClicked(object sender, EventArgs e)",
+    "{",
+    "    myLabel.Text = \"Kliknięto\";",
+    "}"
+  ],
+  "description": "Button MAUI - obsługa kliknięcia"
+},
+"MAUI CheckBox": {
+  "scope": "xml",
+  "prefix": "^MAUIcheckbox",
+  "body": [
+    "<CheckBox x:Name=\"myCheckBox\" IsChecked=\"True\" CheckedChanged=\"OnCheckBoxChanged\" />",
+    "",
+    "// C#",
+    "bool stan = myCheckBox.IsChecked;",
+    "",
+    "void OnCheckBoxChanged(object sender, CheckedChangedEventArgs e)",
+    "{",
+    "    bool value = e.Value;",
+    "}"
+  ],
+  "description": "CheckBox MAUI"
+},
+"MAUI Entry": {
+  "scope": "xml",
+  "prefix": "^MAUIentry",
+  "body": [
+    "<Entry x:Name=\"myEntry\" Placeholder=\"Wpisz tekst\" />",
+    "",
+    "// C#",
+    "string tekst = myEntry.Text;"
+  ],
+  "description": "Entry MAUI - input tekstowy"
+},
+"MAUI Switch": {
+  "scope": "xml",
+  "prefix": "^MAUIswitch",
+  "body": [
+    "<Switch x:Name=\"mySwitch\" IsToggled=\"True\" Toggled=\"OnSwitchToggled\" />",
+    "",
+    "// C#",
+    "bool stan = mySwitch.IsToggled;",
+    "",
+    "void OnSwitchToggled(object sender, ToggledEventArgs e)",
+    "{",
+    "    bool value = e.Value;",
+    "}"
+  ],
+  "description": "Switch MAUI"
+},
+"MAUI Stepper": {
+  "scope": "xml",
+  "prefix": "^MAUIstepper",
+  "body": [
+    "<Stepper x:Name=\"myStepper\" Minimum=\"0\" Maximum=\"10\" Increment=\"1\" ValueChanged=\"OnStepperChanged\" />",
+    "",
+    "// C#",
+    "double val = myStepper.Value;",
+    "",
+    "void OnStepperChanged(object sender, ValueChangedEventArgs e)",
+    "{",
+    "    double v = e.NewValue;",
+    "}"
+  ],
+  "description": "Stepper MAUI"
+},
+"MAUI Slider": {
+  "scope": "xml",
+  "prefix": "^MAUIslider",
+  "body": [
+    "<Slider x:Name=\"mySlider\" Minimum=\"0\" Maximum=\"100\" ValueChanged=\"OnSliderChanged\" />",
+    "",
+    "// C#",
+    "double val = mySlider.Value;",
+    "",
+    "void OnSliderChanged(object sender, ValueChangedEventArgs e)",
+    "{",
+    "    double v = e.NewValue;",
+    "}"
+  ],
+  "description": "Slider MAUI"
+},
+"MAUI Picker": {
+  "scope": "xml",
+  "prefix": "^MAUIpicker",
+  "body": [
+    "<Picker x:Name=\"myPicker\" Title=\"Wybierz opcję\">",
+    "    <Picker.Items>",
+    "        <x:String>Opcja 1</x:String>",
+    "        <x:String>Opcja 2</x:String>",
+    "        <x:String>Opcja 3</x:String>",
+    "    </Picker.Items>",
+    "</Picker>",
+    "",
+    "// C#",
+    "string wybrana = myPicker.SelectedItem?.ToString();",
+    "int index = myPicker.SelectedIndex;"
+  ],
+  "description": "Picker MAUI"
+},
+"MAUI RadioButton": {
+  "scope": "xml",
+  "prefix": "^MAUIradio",
+  "body": [
+    "<VerticalStackLayout>",
+    "    <RadioButton Content=\"Opcja 1\" GroupName=\"grp\" IsChecked=\"True\" CheckedChanged=\"OnRadioChanged\" />",
+    "    <RadioButton Content=\"Opcja 2\" GroupName=\"grp\" CheckedChanged=\"OnRadioChanged\" />",
+    "    <RadioButton Content=\"Opcja 3\" GroupName=\"grp\" CheckedChanged=\"OnRadioChanged\" />",
+    "</VerticalStackLayout>",
+    "",
+    "// C#",
+    "void OnRadioChanged(object sender, CheckedChangedEventArgs e)",
+    "{",
+    "    var radio = (RadioButton)sender;",
+    "    if (e.Value)",
+    "    {",
+    "        string wybranaOpcja = radio.Content?.ToString();",
+    "    }",
+    "}"
+  ],
+  "description": "RadioButton MAUI - poprawna obsługa grupy"
 }
 }

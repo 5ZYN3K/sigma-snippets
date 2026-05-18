@@ -3,7 +3,7 @@
 //SORTOWANIA
 "Sortowanie Bąbelkowe": {
   "scope": "csharp",
-  "prefix": "sortbabelkowe",
+  "prefix": "^sortbabelkowe",
   "body": [
     "//Złożoność: O(n^2)",
     "public int[] BubbleSort(int[] tablica) //dwie pętle, sprawdzenie i zamiana miejscami",
@@ -29,7 +29,7 @@
 },
   "Sortowanie Przez Wybor": {
     "scope": "csharp",
-    "prefix": "sortwybor",
+    "prefix": "^sortwybor",
     "body": [
       "//Złożoność: O(n^2)",
       "public int[] SortowaniePrzezWybor(int[] tablica) //wyszukiwanie najmniejszego elementu",
@@ -60,7 +60,7 @@
 
   "Sortowanie Przez Wstawianie": {
     "scope": "csharp",
-    "prefix": "sortwstawianie",
+    "prefix": "^sortwstawianie",
     "body": [
       "//Złożoność: O(n^2)",
       "public int[] SortowaniePrzezWstawianie(int[] tablica) //wstawianie elementu w odpowiednie miejsce",
@@ -89,7 +89,7 @@
 
   "QuickSort": {
     "scope": "csharp",
-    "prefix": "sortquicksort",
+    "prefix": "^sortquicksort",
     "body": [
       "//Średnia złożoność: O(n log n)",
       "public void QuickSort(int[] tablica, int lewy, int prawy) //sortowanie szybkie z pivotem",
@@ -142,7 +142,7 @@
 
   "MergeSort": {
     "scope": "csharp",
-    "prefix": "sortmergesort",
+    "prefix": "^sortmergesort",
     "body": [
       "//Złożoność: O(n log n)",
       "public void MergeSort(int[] tablica, int lewy, int prawy) //dzielenie tablicy i scalanie",
@@ -210,7 +210,7 @@
   },
   "BucketSort": {
   "scope": "csharp",
-  "prefix": "bucketsort",
+  "prefix": "^ bucketsort",
   "body": [
     "//Średnia złożoność: O(n + k)",
     "public int[] BucketSort(int[] tablica) //sortowanie kubełkowe",
@@ -253,7 +253,7 @@
 //ALGORYTMY
 "Silnia Iteracyjnie": {
     "scope": "csharp",
-    "prefix": "silniaiter",
+    "prefix": "^silniaiter",
     "body": [
       "//Złożoność: O(n)",
       "public int SilniaIteracyjnie(int liczba) //silnia przy użyciu pętli",
@@ -274,7 +274,7 @@
 
   "Silnia Rekurencyjnie": {
     "scope": "csharp",
-    "prefix": "silniarek",
+    "prefix": "^silniarek",
     "body": [
       "//Złożoność: O(n)",
       "public int SilniaRekurencyjnie(int liczba) //silnia przy użyciu rekurencji",
@@ -293,7 +293,7 @@
   },
    "NWD": {
     "scope": "csharp",
-    "prefix": "nwd",
+    "prefix": "^nwd",
     "body": [
       "//Złożoność: O(log n)",
       "public int NWD(int a, int b) //algorytm Euklidesa",
@@ -315,7 +315,7 @@
 
 "NWW": {
     "scope": "csharp",
-    "prefix": "nww",
+    "prefix": "^nww",
     "body": [
       "//Złożoność: O(log n)",
       "public int NWD(int a, int b) //algorytm Euklidesa",
@@ -343,7 +343,7 @@
 
   "Fibonacci Iteracyjnie": {
     "scope": "csharp",
-    "prefix": "fiboiter",
+    "prefix": "^fiboiter",
     "body": [
       "//Złożoność: O(n)",
       "public int FibonacciIteracyjnie(int n) //ciąg Fibonacciego",
@@ -370,7 +370,7 @@
 
   "Fibonacci Rekurencyjnie": {
     "scope": "csharp",
-    "prefix": "fiborek",
+    "prefix": "^fiborek",
     "body": [
       "//Złożoność: O(2^n) - bardzo wolne",
       "public int FibonacciRekurencyjnie(int n) //ciąg Fibonacciego",
@@ -386,7 +386,7 @@
   },
    "Sito Eratostenesa": {
     "scope": "csharp",
-    "prefix": "sitolist",
+    "prefix": "^sitolist",
     "body": [
       "//Złożoność: O(n log log n)",
       "public List<int> SitoEratostenesa(int n) //znajdowanie liczb pierwszych",
@@ -428,7 +428,7 @@
   },
   "Sito Eratostenesa Tablica": {
   "scope": "csharp",
-  "prefix": "sitoarray",
+  "prefix": "^sitoarray",
   "body": [
     "//Złożoność: O(n log log n)",
     "public bool[] SitoEratostenesa(int n)",
@@ -458,7 +458,7 @@
 },
 "Liczby Pierwsze (sprawdzanie jednej liczby)": {
   "scope": "csharp",
-  "prefix": "pierwsza",
+  "prefix": "^pierwsza",
   "body": [
     "//Złożoność: O(sqrt n)",
     "public bool CzyPierwsza(int liczba) //sprawdza czy liczba jest pierwsza",
@@ -483,7 +483,7 @@
 },
 "Suma cyfr liczby": {
   "scope": "csharp",
-  "prefix": "sumacyfr",
+  "prefix": "^sumacyfr",
   "body": [
     "//Złożoność: O(n) gdzie n to liczba cyfr",
     "public int SumaCyfr(int liczba) //oblicza sumę cyfr liczby",
@@ -508,7 +508,7 @@
 },
 "Odwracanie liczby": {
   "scope": "csharp",
-  "prefix": "odwroc",
+  "prefix": "^odwrocliczbe",
   "body": [
     "//Złożoność: O(n) gdzie n to liczba cyfr",
     "public int OdwrocLiczbe(int liczba) //odwraca cyfry liczby",
@@ -534,7 +534,7 @@
 },
 "Sprawdzanie Parzystości": {
   "scope": "csharp",
-  "prefix": "parzysta",
+  "prefix": "^parzysta",
   "body": [
     "//Złożoność: O(1)",
     "public bool CzyParzysta(int liczba) //sprawdza czy liczba jest parzysta",
@@ -548,7 +548,7 @@
 
 "Sprawdzanie Podzielności": {
   "scope": "csharp",
-  "prefix": "podzielnosc",
+  "prefix": "^podzielnosc",
   "body": [
     "//Złożoność: O(1)",
     "public bool CzyPodzielna(int liczba, int dzielnik) //sprawdza podzielność liczby",
@@ -566,7 +566,7 @@
 },
 "Wyszukiwanie Liniowe": {
   "scope": "csharp",
-  "prefix": "liniowe",
+  "prefix": "^wyszukiwanieliniowe",
   "body": [
     "//Złożoność: O(n)",
     "public int WyszukiwanieLiniowe(int[] tablica, int szukana) //przeszukiwanie od początku do końca",
@@ -587,7 +587,7 @@
 
 "Wyszukiwanie Binarne": {
   "scope": "csharp",
-  "prefix": "binarne",
+  "prefix": "^wyszukiwaniebinarne",
   "body": [
     "//Złożoność: O(log n)",
     "public int WyszukiwanieBinarne(int[] tablica, int szukana) //wymaga posortowanej tablicy",
@@ -622,7 +622,7 @@
 },
 "Minimum w tablicy": {
   "scope": "csharp",
-  "prefix": "min",
+  "prefix": "^min",
   "body": [
     "//Złożoność: O(n)",
     "public int Minimum(int[] tablica) //znajduje najmniejszy element",
@@ -645,7 +645,7 @@
 
 "Maksimum w tablicy": {
   "scope": "csharp",
-  "prefix": "max",
+  "prefix": "^max",
   "body": [
     "//Złożoność: O(n)",
     "public int Maksimum(int[] tablica) //znajduje największy element",
@@ -667,7 +667,7 @@
 },
 "Suma elementów tablicy": {
   "scope": "csharp",
-  "prefix": "suma",
+  "prefix": "^suma",
   "body": [
     "//Złożoność: O(n)",
     "public int SumaElementow(int[] tablica) //sumuje wszystkie elementy tablicy",
@@ -686,7 +686,7 @@
 },
 "Średnia Arytmetyczna": {
   "scope": "csharp",
-  "prefix": "srednia",
+  "prefix": "^srednia",
   "body": [
     "//Złożoność: O(n)",
     "public double SredniaArytmetyczna(int[] tablica) //oblicza średnią z elementów",
@@ -706,7 +706,7 @@
 },
 "Zliczanie elementów": {
   "scope": "csharp",
-  "prefix": "zlicz",
+  "prefix": "^zlicz",
   "body": [
     "//Złożoność: O(n)",
     "public int ZliczElementy(int[] tablica) //zlicza elementy spełniające warunek",
@@ -729,7 +729,7 @@
 },
 "Zliczanie wystąpień bez powtórzeń": {
   "scope": "csharp",
-  "prefix": "zliczbezpowtorzen",
+  "prefix": "^zliczbezpowtorzen",
   "body": [
     "//Złożoność: O(n^2)",
     "public void ZliczWystapieniaBezPowtorzen(int[] tablica) //zlicza ile razy występuje każdy element",
@@ -762,7 +762,7 @@
 },
 "Usuwanie duplikatów z tablicy": {
   "scope": "csharp",
-  "prefix": "usunduplikatytablica",
+  "prefix": "^usunduplikatytablica",
   "body": [
     "//Złożoność: O(n^2)",
     "public int[] UsunDuplikaty(int[] tablica) //zwraca tablicę bez powtórzeń",
@@ -807,7 +807,7 @@
 
 "Usuwanie powtórzeń znaków obok siebie": {
   "scope": "csharp",
-  "prefix": "usunpowtorzeniastringEGZ",
+  "prefix": "^usunpowtorzeniastringEGZ",
   "body": [
     "//Złożoność: O(n)",
     "public string UsunPowtorzeniaObokSiebie(string tekst) //usuwa powtórzenia sąsiadujących znaków",
@@ -841,7 +841,7 @@
 },
 "Odwracanie tablicy": {
   "scope": "csharp",
-  "prefix": "odwroctablice",
+  "prefix": "^odwroctablice",
   "body": [
     "//Złożoność: O(n)",
     "public void OdwrocTablice(int[] tablica) //odwraca kolejność elementów w tablicy",
@@ -865,7 +865,7 @@
 },
 "Sprawdzanie anagramów": {
   "scope": "csharp",
-  "prefix": "anagram",
+  "prefix": "^anagram",
   "body": [
     "//Złożoność: O(n log n)",
     "public bool CzyAnagram(string a, string b) //sprawdza czy dwa napisy są anagramami",
@@ -901,7 +901,7 @@
 },
 "Sprawdzanie anagramów (bez funkcji wbudowanych)": {
   "scope": "csharp",
-  "prefix": "anagrambezwbudowanych",
+  "prefix": "^anagrambezwbudowanych",
   "body": [
     "//Złożoność: O(n^2)",
     "public bool CzyAnagram(string a, string b) //bez sortowania i funkcji wbudowanych",
@@ -945,7 +945,7 @@
 },
 "Sprawdzanie palindromu": {
   "scope": "csharp",
-  "prefix": "palindrom",
+  "prefix": "^palindrom",
   "body": [
     "//Złożoność: O(n)",
     "public bool CzyPalindrom(string tekst) //sprawdza czy tekst jest palindromem",
@@ -977,7 +977,7 @@
 },
 "Losowanie liczby z zakresu": {
   "scope": "csharp",
-  "prefix": "losuj",
+  "prefix": "^losuj",
   "body": [
     "//Random losuje liczby pseudolosowe",
     "//Złożoność: O(1)",
@@ -994,7 +994,7 @@
 },
 "Szyfr Cezara (pełny, z zawijaniem i ujemnym kluczem)": {
   "scope": "csharp",
-  "prefix": "cezarfull",
+  "prefix": "^cezarfull",
   "body": [
     "//Złożoność: O(n)",
     "public string SzyfrCezara(string tekst, int przesuniecie) //szyfrowanie z obsługą ujemnego klucza",
@@ -1034,7 +1034,7 @@
 
 "Zliczanie każdego znaku (częstość wystąpień)": {
   "scope": "csharp",
-  "prefix": "liczznaki",
+  "prefix": "^liczznaki",
   "body": [
     "//Złożoność: O(n^2)",
     "public void ZliczZnaki(string tekst) //liczy ile razy występuje każdy znak",
@@ -1072,7 +1072,7 @@
 },
 "Wyszukiwanie w tablicy z wartownikiem": {
   "scope": "csharp",
-  "prefix": "wartownik",
+  "prefix": "^wyszukiwaniewartownik",
   "body": [
     "//Złożoność: O(n)",
     "public int WyszukiwanieZWartownikiem(int[] tablica, int szukana) //wyszukiwanie liniowe z wartownikiem",
@@ -1110,7 +1110,7 @@
 },
 "Operacje na tablicach dwuwymiarowych (INF.04)": {
   "scope": "csharp",
-  "prefix": "tab2d",
+  "prefix": "^tab2d",
   "body": [
     "//TABLICA 2D – podstawy INF.04",
     "",
@@ -1183,13 +1183,124 @@
     "    }",
     "",
     "    return licznik;",
+    "}",
+    "",
+    "//Zliczanie ile razy wystąpił każdy element",
+    "//np. 0 -> 3 razy, 1 -> 5 razy",
+    "public void ZliczWystapienia2D(int[,] tablica)",
+    "{",
+    "    int max = 0;",
+    "",
+    "    //szukanie największego elementu",
+    "    for (int i = 0; i < tablica.GetLength(0); i++)",
+    "    {",
+    "        for (int j = 0; j < tablica.GetLength(1); j++)",
+    "        {",
+    "            if (tablica[i, j] > max)",
+    "            {",
+    "                max = tablica[i, j];",
+    "            }",
+    "        }",
+    "    }",
+    "",
+    "    int[] wystapienia = new int[max + 1];",
+    "",
+    "    //zliczanie",
+    "    for (int i = 0; i < tablica.GetLength(0); i++)",
+    "    {",
+    "        for (int j = 0; j < tablica.GetLength(1); j++)",
+    "        {",
+    "            wystapienia[tablica[i, j]]++;",
+    "        }",
+    "    }",
+    "",
+    "    //wyświetlanie",
+    "    for (int i = 0; i < wystapienia.Length; i++)",
+    "    {",
+    "        Console.WriteLine(i + \" -> \" + wystapienia[i]);",
+    "    }",
     "}"
   ],
-  "description": "Podstawowe operacje na tablicach dwuwymiarowych"
+  "description": "Podstawowe operacje na tablicach dwuwymiarowych + zliczanie wystąpień"
+},
+"Tablice asocjacyjne INF.04": {
+  "scope": "csharp",
+  "prefix": "^assoc",
+  "body": [
+    "//==============================",
+    "// TABLICA ASOCJACYJNA",
+    "// Dictionary<Klucz, Wartosc>",
+    "//==============================",
+    "Dictionary<string, int> dane = new Dictionary<string, int>();",
+    "",
+    "//==============================",
+    "// DODAWANIE",
+    "//==============================",
+    "dane.Add(\"Ala\", 5);",
+    "dane.Add(\"Kuba\", 3);",
+    "",
+    "//==============================",
+    "// ODCZYT",
+    "//==============================",
+    "Console.WriteLine(dane[\"Ala\"]);",
+    "",
+    "//==============================",
+    "// ZMIANA WARTOŚCI",
+    "//==============================",
+    "dane[\"Ala\"] = 10;",
+    "",
+    "//==============================",
+    "// SPRAWDZANIE KLUCZA",
+    "//==============================",
+    "if (dane.ContainsKey(\"Ala\"))",
+    "{",
+    "    Console.WriteLine(\"Istnieje\");",
+    "}",
+    "",
+    "//==============================",
+    "// USUWANIE",
+    "//==============================",
+    "dane.Remove(\"Kuba\");",
+    "",
+    "//==============================",
+    "// PRZEJŚCIE PO SŁOWNIKU",
+    "//==============================",
+    "foreach (KeyValuePair<string, int> element in dane)",
+    "{",
+    "    Console.WriteLine(element.Key + \" -> \" + element.Value);",
+    "}",
+    "",
+    "//==============================",
+    "// ZLICZANIE WYSTĄPIEŃ",
+    "//==============================",
+    "string tekst = \"ala ma kota\";",
+    "",
+    "Dictionary<char, int> licznik = new Dictionary<char, int>();",
+    "",
+    "for (int i = 0; i < tekst.Length; i++)",
+    "{",
+    "    char znak = tekst[i];",
+    "",
+    "    if (licznik.ContainsKey(znak))",
+    "    {",
+    "        licznik[znak]++;",
+    "    }",
+    "    else",
+    "    {",
+    "        licznik.Add(znak, 1);",
+    "    }",
+    "}",
+    "",
+    "foreach (KeyValuePair<char, int> e in licznik)",
+    "{",
+    "    Console.WriteLine(e.Key + \" -> \" + e.Value);",
+    "}"
+  ],
+  "description": "Tablice asocjacyjne / Dictionary INF.04"
 },
 "OBIEKTOWOŚĆ (INF.04) – dziedziczenie, abstrakcja, polimorfizm": {
   "scope": "csharp",
-  "prefix": "oop",
+  "prefix": "^oop",
   "body": [
     "//==============================",
     "// PODSTAWY OOP – INF.04",
@@ -1282,7 +1393,7 @@
   "description": "Ściąga OOP: dziedziczenie, abstrakcja, polimorfizm, interfejsy"
 },
 "MEGA obsługa plików INF.04": {
-  "prefix": "plikiC#",
+  "prefix": "^plikiC#",
   "body": [
     "using System;",
     "using System.IO;",
@@ -1360,7 +1471,7 @@
     "}",
     "",
     "//==============================",
-    "// JSON - ZAPIS (SERIALIZACJA)",
+    "// JSON - ZAPIS LISTY",
     "//==============================",
     "List<string> listaJson = new List<string> { \"$4\", \"$5\" };",
     "",
@@ -1368,7 +1479,7 @@
     "File.WriteAllText(\"dane.json\", json);",
     "",
     "//==============================",
-    "// JSON - ODCZYT (DESERIALIZACJA)",
+    "// JSON - ODCZYT LISTY",
     "//==============================",
     "string jsonZPliku = File.ReadAllText(\"dane.json\");",
     "",
@@ -1377,12 +1488,32 @@
     "for (int i = 0; i < listaOdczyt.Count; i++)",
     "{",
     "    Console.WriteLine(listaOdczyt[i]);",
+    "}",
+    "",
+    "//==============================",
+    "// JSON - ZAPIS TABLICY",
+    "//==============================",
+    "string[] tablica = { \"$6\", \"$7\" };",
+    "",
+    "string jsonTablica = JsonSerializer.Serialize(tablica);",
+    "File.WriteAllText(\"tablica.json\", jsonTablica);",
+    "",
+    "//==============================",
+    "// JSON - ODCZYT TABLICY",
+    "//==============================",
+    "string jsonTablicaZPliku = File.ReadAllText(\"tablica.json\");",
+    "",
+    "string[] tablicaOdczyt = JsonSerializer.Deserialize<string[]>(jsonTablicaZPliku);",
+    "",
+    "for (int i = 0; i < tablicaOdczyt.Length; i++)",
+    "{",
+    "    Console.WriteLine(tablicaOdczyt[i]);",
     "}"
   ],
-  "description": "pliki C# + JSON (serializacja i deserializacja)"
+  "description": "pliki C# + JSON list i tablic (serializacja/deserializacja)"
 },
 "MEGA GIT INF.04 - CAŁY ZESTAW": {
-  "prefix": "gitallfull",
+  "prefix": "^git",
   "body": [
     "//==============================",
     "// KONFIGURACJA GIT",
@@ -1458,5 +1589,305 @@
     "git checkout $9 -- plik.txt"
   ],
   "description": "PEŁNY MEGA SNIPPET GIT INF.04 - wszystkie komendy"
+},
+"Wyjaśnienie funkcji INF.04": {
+  "prefix": "^dokumentacja",
+  "body": [
+    "//==============================",
+    "// PRZYKŁADOWA FUNKCJA",
+    "//==============================",
+    "public int Suma(int a, int b)",
+    "{",
+    "    return a + b;",
+    "}",
+    "",
+    "//==============================",
+    "// WYJAŚNIENIE",
+    "//==============================",
+    "// public -> modyfikator dostępu (funkcja dostępna publicznie)",
+    "// int -> typ zwracany funkcji",
+    "// Suma -> nazwa funkcji",
+    "// int a, int b -> parametry funkcji (dane wejściowe)",
+    "// a i b -> nazwy parametrów",
+    "// return -> zwraca wynik funkcji",
+    "// a + b -> wartość zwracana",
+    "",
+    "//==============================",
+    "// WYWOŁANIE FUNKCJI",
+    "//==============================",
+    "int wynik = Suma(5, 10);",
+    "",
+    "// 5 i 10 -> argumenty przekazane do funkcji",
+    "// wynik -> zmienna przechowująca rezultat"
+  ],
+  "description": "Wyjaśnienie elementów funkcji: parametry, argumenty, return, typ zwracany"
+},
+"Modyfikatory dostępu + static INF.04": {
+  "scope": "csharp",
+  "prefix": "^modall",
+  "body": [
+    "//==============================",
+    "// MODYFIKATORY DOSTĘPU + STATIC - INF.04",
+    "//==============================",
+    "",
+    "// PUBLIC - dostęp wszędzie",
+    "public int publicZmienna;",
+    "",
+    "// PRIVATE - tylko w klasie",
+    "private int privateZmienna;",
+    "",
+    "// PROTECTED - klasa + klasy potomne",
+    "protected int protectedZmienna;",
+    "",
+    "// INTERNAL - tylko w projekcie",
+    "internal int internalZmienna;",
+    "",
+    "//==============================",
+    "// STATIC - należy do KLASY (nie obiektu)",
+    "//==============================",
+    "public static int licznik;",
+    "",
+    "public static void Zwieksz()",
+    "{",
+    "    licznik++;",
+    "}",
+    "",
+    "static void Test()",
+    "{",
+    "    Console.WriteLine(\"Metoda statyczna\");",
+    "}"
+  ],
+  "description": "Modyfikatory dostępu + static w C# (INF.04)"
+},
+"Testy jednostkowe xUnit (pełny INF.04)": {
+  "scope": "csharp",
+  "prefix": "^testyxunit",
+  "body": [
+    "//==============================",
+    "// WAŻNE - DODANIE ODNIESIENIA DO PROJEKTU",
+    "//==============================",
+    "// Aby testy działały, należy dodać referencję do projektu:",
+    "// 1. PPM na projekt testowy",
+    "// 2. Add / Dodaj",
+    "// 3. Project Reference",
+    "// 4. Wybierz projekt z klasami",
+    "",
+    "using Xunit;",
+    "",
+    "//==============================",
+    "// xUnit - PEŁNY ZESTAW TESTÓW",
+    "//==============================",
+    "",
+    "public class TestyJednostkowe",
+    "{",
+    "    //==============================",
+    "    // 1. TRUE / FALSE",
+    "    //==============================",
+    "    [Fact]",
+    "    public void Test_TrueFalse()",
+    "    {",
+    "        Assert.True(5 > 3);",
+    "        Assert.False(5 < 3);",
+    "    }",
+    "",
+    "    //==============================",
+    "    // 2. RÓWNOŚĆ",
+    "    //==============================",
+    "    [Fact]",
+    "    public void Test_Equal()",
+    "    {",
+    "        Assert.Equal(10, 5 + 5);",
+    "    }",
+    "",
+    "    //==============================",
+    "    // 3. NULL / NOT NULL",
+    "    //==============================",
+    "    [Fact]",
+    "    public void Test_Null()",
+    "    {",
+    "        string tekst = null;",
+    "        Assert.Null(tekst);",
+    "        Assert.NotNull(\"INF04\");",
+    "    }",
+    "",
+    "    //==============================",
+    "    // 4. WYJĄTKI",
+    "    //==============================",
+    "    [Fact]",
+    "    public void Test_Exception()",
+    "    {",
+    "        Assert.Throws<DivideByZeroException>(() =>",
+    "        {",
+    "            int a = 10;",
+    "            int b = 0;",
+    "            int c = a / b;",
+    "        });",
+    "    }",
+    "",
+    "    //==============================",
+    "    // 5. TEKST",
+    "    //==============================",
+    "    [Fact]",
+    "    public void Test_StringContains()",
+    "    {",
+    "        string tekst = \"Ala ma kota\";",
+    "        Assert.Contains(\"Ala\", tekst);",
+    "    }",
+    "",
+    "    //==============================",
+    "// 6. TABLICE / KOLEKCJE",
+    "//==============================",
+    "[Fact]",
+    "public void Test_Collection()",
+    "{",
+    "    int[] liczby = { 1, 2, 3 };",
+    "    Assert.Contains(2, liczby);",
+    "}",
+    "",
+    "//==============================",
+    "// 7. TESTY PARAMETRYZOWANE (INLINE DATA)",
+    "//==============================",
+    "[Theory]",
+    "[InlineData(2, 3, 5)]",
+    "[InlineData(10, 20, 30)]",
+    "[InlineData(-1, 1, 0)]",
+    "public void Test_Dodawanie(int a, int b, int expected)",
+    "{",
+    "    int wynik = a + b;",
+    "    Assert.Equal(expected, wynik);",
+    "}",
+    "",
+    "//==============================",
+    "// 8. INLINE DATA - WARUNKI",
+    "//==============================",
+    "[Theory]",
+    "[InlineData(5)]",
+    "[InlineData(10)]",
+    "public void Test_CzyDodatnia(int liczba)",
+    "{",
+    "    Assert.True(liczba > 0);",
+    "}",
+    "}"
+  ],
+  "description": "xUnit pełny zestaw testów + wymagane dodanie referencji do projektu"
+},
+"Gettery i settery + metody INF.04": {
+  "scope": "csharp",
+  "prefix": "^funkcjegetset",
+  "body": [
+    "//==============================",
+    "// GETTERY I SETTERY - INF.04",
+    "//==============================",
+    "",
+    "class Osoba",
+    "{",
+    "    //==============================",
+    "    // POLA (PRYWATNE)",
+    "    //==============================",
+    "    private string imie;",
+    "    private int wiek;",
+    "",
+    "    //==============================",
+    "    // SETTER (metoda ustawiająca)",
+    "    //==============================",
+    "    public void SetImie(string value)",
+    "    {",
+    "        imie = value;",
+    "    }",
+    "",
+    "    //==============================",
+    "    // GETTER (metoda pobierająca)",
+    "    //==============================",
+    "    public string GetImie()",
+    "    {",
+    "        return imie;",
+    "    }",
+    "",
+    "    //==============================",
+    "    // SETTER (wiek)",
+    "    //==============================",
+    "    public void SetWiek(int value)",
+    "    {",
+    "        wiek = value;",
+    "    }",
+    "",
+    "    //==============================",
+    "    // GETTER (wiek)",
+    "    //==============================",
+    "    public int GetWiek()",
+    "    {",
+    "        return wiek;",
+    "    }",
+    "",
+    "    //==============================",
+    "    // FUNKCJA DZIAŁAJĄCA JAK GETTER",
+    "    //==============================",
+    "    public string PobierzDane()",
+    "    {",
+    "        return imie + \" \" + wiek;",
+    "    }",
+    "",
+    "    //==============================",
+    "    // FUNKCJA DZIAŁAJĄCA JAK SETTER",
+    "    //==============================",
+    "    public void UstawDane(string nowyImie, int nowyWiek)",
+    "    {",
+    "        imie = nowyImie;",
+    "        wiek = nowyWiek;",
+    "    }",
+    "}"
+  ],
+  "description": "Gettery, settery i metody działające jak get/set (INF.04)"
+},
+"Gettery i settery automatyczne + własności INF.04": {
+  "scope": "csharp",
+  "prefix": "^propgetset",
+  "body": [
+    "//==============================",
+    "// WŁAŚCIWOŚCI (GET; SET;) - INF.04",
+    "//==============================",
+    "",
+    "class Osoba",
+    "{",
+    "    //==============================",
+    "    // AUTOMATYCZNE WŁAŚCIWOŚCI",
+    "    //==============================",
+    "",
+    "    public string Imie { get; set; }",
+    "    public int Wiek { get; set; }",
+    "",
+    "    //==============================",
+    "    // WŁAŚCIWOŚĆ TYLKO DO ODCZYTU",
+    "    //==============================",
+    "    public string Kraj { get; private set; }",
+    "",
+    "    //==============================",
+    "    // WŁAŚCIWOŚĆ TYLKO DO ZAPISU",
+    "    //==============================",
+    "    private string haslo;",
+    "    public string Haslo",
+    "    {",
+    "        set { haslo = value; }",
+    "    }",
+    "",
+    "    //==============================",
+    "    // WŁAŚCIWOŚĆ Z LOGIKĄ (FULL PROPERTY)",
+    "    //==============================",
+    "    private int wiek;",
+    "",
+    "    public int WiekBezpieczny",
+    "    {",
+    "        get { return wiek; }",
+    "        set",
+    "        {",
+    "            if (value >= 0)",
+    "            {",
+    "                wiek = value;",
+    "            }",
+    "        }",
+    "    }",
+    "}"
+  ],
+  "description": "Właściwości C# {get; set;} + full properties INF.04"
 }
 }

@@ -34,11 +34,11 @@
     },
     {
       "language": "xaml",
-      "path": "./snippets/snippets.code-snippets"
+      "path": "./snippets/maui.code-snippets"
     },
      {
       "language": "xml",
-      "path": "./snippets/snippets.code-snippets"
+      "path": "./snippets/maui.code-snippets"
     }
   ]
 }

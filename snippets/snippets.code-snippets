@@ -1,5 +1,4 @@
 {
-
 //SORTOWANIA
 "Sortowanie Bąbelkowe": {
   "scope": "csharp",
@@ -137,7 +136,7 @@
       "    }",
       "}"
     ],
-    "description": "QuickSort"
+    "description": "Sortowanie szybkie"
   },
 
   "MergeSort": {
@@ -206,11 +205,11 @@
       "    }",
       "}"
     ],
-    "description": "MergeSort"
+    "description": "Sortowanie przez scalanie"
   },
   "BucketSort": {
   "scope": "csharp",
-  "prefix": "^ bucketsort",
+  "prefix": "^sortbucketsort",
   "body": [
     "//Średnia złożoność: O(n + k)",
     "public int[] BucketSort(int[] tablica) //sortowanie kubełkowe",
@@ -247,7 +246,7 @@
     "    return tablica;",
     "}"
   ],
-  "description": "BucketSort - sortowanie kubełkowe"
+  "description": "Sortowanie kubełkowe"
 },
 
 //ALGORYTMY
@@ -382,7 +381,7 @@
       "    return FibonacciRekurencyjnie(n - 1) + FibonacciRekurencyjnie(n - 2);",
       "}"
     ],
-    "description": "Fibonacci rekurencyjnie"
+    "description": "Fibonacci rekurencyjnie (NIE POLECAM - bardzo wolne)"
   },
    "Sito Eratostenesa": {
     "scope": "csharp",
@@ -620,6 +619,44 @@
   ],
   "description": "Wyszukiwanie binarne"
 },
+"Wyszukiwanie w tablicy z wartownikiem": {
+  "scope": "csharp",
+  "prefix": "^wyszukiwaniewartownik",
+  "body": [
+    "//Złożoność: O(n)",
+    "public int WyszukiwanieZWartownikiem(int[] tablica, int szukana) //wyszukiwanie liniowe z wartownikiem",
+    "{",
+    "    int n = tablica.Length;",
+    "    int[] pomocnicza = new int[n + 1];",
+    "",
+    "    //skopiowanie tablicy",
+    "    for (int i = 0; i < n; i++)",
+    "    {",
+    "        pomocnicza[i] = tablica[i];",
+    "    }",
+    "",
+    "    //ustawienie wartownika na końcu",
+    "    pomocnicza[n] = szukana;",
+    "",
+    "    int iIndex = 0;",
+    "",
+    "    //przeszukiwanie bez sprawdzania granic w pętli",
+    "    while (pomocnicza[iIndex] != szukana)",
+    "    {",
+    "        iIndex++;",
+    "    }",
+    "",
+    "    //sprawdzenie czy znaleziono w oryginalnej tablicy",
+    "    if (iIndex < n)",
+    "    {",
+    "        return iIndex;",
+    "    }",
+    "",
+    "    return -1;",
+    "}"
+  ],
+  "description": "Wyszukiwanie liniowe z wartownikiem"
+},
 "Minimum w tablicy": {
   "scope": "csharp",
   "prefix": "^min",
@@ -729,7 +766,7 @@
 },
 "Zliczanie wystąpień bez powtórzeń": {
   "scope": "csharp",
-  "prefix": "^zliczbezpowtorzen",
+  "prefix": "^zliczbezpowtorzentablica",
   "body": [
     "//Złożoność: O(n^2)",
     "public void ZliczWystapieniaBezPowtorzen(int[] tablica) //zlicza ile razy występuje każdy element",
@@ -1034,7 +1071,7 @@
 
 "Zliczanie każdego znaku (częstość wystąpień)": {
   "scope": "csharp",
-  "prefix": "^liczznaki",
+  "prefix": "^liczznakistring",
   "body": [
     "//Złożoność: O(n^2)",
     "public void ZliczZnaki(string tekst) //liczy ile razy występuje każdy znak",
@@ -1069,44 +1106,6 @@
     "}"
   ],
   "description": "Zliczanie wystąpień każdego znaku w stringu"
-},
-"Wyszukiwanie w tablicy z wartownikiem": {
-  "scope": "csharp",
-  "prefix": "^wyszukiwaniewartownik",
-  "body": [
-    "//Złożoność: O(n)",
-    "public int WyszukiwanieZWartownikiem(int[] tablica, int szukana) //wyszukiwanie liniowe z wartownikiem",
-    "{",
-    "    int n = tablica.Length;",
-    "    int[] pomocnicza = new int[n + 1];",
-    "",
-    "    //skopiowanie tablicy",
-    "    for (int i = 0; i < n; i++)",
-    "    {",
-    "        pomocnicza[i] = tablica[i];",
-    "    }",
-    "",
-    "    //ustawienie wartownika na końcu",
-    "    pomocnicza[n] = szukana;",
-    "",
-    "    int iIndex = 0;",
-    "",
-    "    //przeszukiwanie bez sprawdzania granic w pętli",
-    "    while (pomocnicza[iIndex] != szukana)",
-    "    {",
-    "        iIndex++;",
-    "    }",
-    "",
-    "    //sprawdzenie czy znaleziono w oryginalnej tablicy",
-    "    if (iIndex < n)",
-    "    {",
-    "        return iIndex;",
-    "    }",
-    "",
-    "    return -1;",
-    "}"
-  ],
-  "description": "Wyszukiwanie liniowe z wartownikiem"
 },
 "Operacje na tablicach dwuwymiarowych (INF.04)": {
   "scope": "csharp",
@@ -1624,7 +1623,7 @@
 },
 "Modyfikatory dostępu + static INF.04": {
   "scope": "csharp",
-  "prefix": "^modall",
+  "prefix": "^modyfikatorydostepu",
   "body": [
     "//==============================",
     "// MODYFIKATORY DOSTĘPU + STATIC - INF.04",
@@ -1890,144 +1889,45 @@
   ],
   "description": "Właściwości C# {get; set;} + full properties INF.04"
 },
-"MAUI Label": {
-  "scope": "xml",
-  "prefix": "^MAUIlabel",
+"CSharp Pattern Search In Text": {
+  "scope": "csharp",
+  "prefix": "^wyszukiwanieWzorcaWTekscie",
   "body": [
-    "<Label x:Name=\"myLabel\" Text=\"Hello\" FontSize=\"20\" TextColor=\"Black\" HorizontalOptions=\"Center\" />",
+    "// Aby zwrócić index zamiast true/false:",
+    "// 1. Zmień 'static bool' na 'static int'",
+    "// 2. Zmień 'return true;' na 'return i;' na końcu funkcji",
+    "// 3. Zmień 'return false;' na 'return -1;' na końcu funkcji",
     "",
-    "// C#",
-    "string tekst = myLabel.Text;"
-  ],
-  "description": "Label MAUI - wyświetlanie tekstu"
-},
-"MAUI Button": {
-  "scope": "xml",
-  "prefix": "^MAUIbutton",
-  "body": [
-    "<Button x:Name=\"myButton\" Text=\"Kliknij\" Clicked=\"OnButtonClicked\" BackgroundColor=\"Blue\" TextColor=\"White\" />",
-    "",
-    "// C#",
-    "void OnButtonClicked(object sender, EventArgs e)",
+    "static bool ZnajdzWzorzec(string tekst, string wzorzec)",
     "{",
-    "    myLabel.Text = \"Kliknięto\";",
-    "}"
-  ],
-  "description": "Button MAUI - obsługa kliknięcia"
-},
-"MAUI CheckBox": {
-  "scope": "xml",
-  "prefix": "^MAUIcheckbox",
-  "body": [
-    "<CheckBox x:Name=\"myCheckBox\" IsChecked=\"True\" CheckedChanged=\"OnCheckBoxChanged\" />",
-    "",
-    "// C#",
-    "bool stan = myCheckBox.IsChecked;",
-    "",
-    "void OnCheckBoxChanged(object sender, CheckedChangedEventArgs e)",
-    "{",
-    "    bool value = e.Value;",
-    "}"
-  ],
-  "description": "CheckBox MAUI"
-},
-"MAUI Entry": {
-  "scope": "xml",
-  "prefix": "^MAUIentry",
-  "body": [
-    "<Entry x:Name=\"myEntry\" Placeholder=\"Wpisz tekst\" />",
-    "",
-    "// C#",
-    "string tekst = myEntry.Text;"
-  ],
-  "description": "Entry MAUI - input tekstowy"
-},
-"MAUI Switch": {
-  "scope": "xml",
-  "prefix": "^MAUIswitch",
-  "body": [
-    "<Switch x:Name=\"mySwitch\" IsToggled=\"True\" Toggled=\"OnSwitchToggled\" />",
-    "",
-    "// C#",
-    "bool stan = mySwitch.IsToggled;",
-    "",
-    "void OnSwitchToggled(object sender, ToggledEventArgs e)",
-    "{",
-    "    bool value = e.Value;",
-    "}"
-  ],
-  "description": "Switch MAUI"
-},
-"MAUI Stepper": {
-  "scope": "xml",
-  "prefix": "^MAUIstepper",
-  "body": [
-    "<Stepper x:Name=\"myStepper\" Minimum=\"0\" Maximum=\"10\" Increment=\"1\" ValueChanged=\"OnStepperChanged\" />",
-    "",
-    "// C#",
-    "double val = myStepper.Value;",
-    "",
-    "void OnStepperChanged(object sender, ValueChangedEventArgs e)",
-    "{",
-    "    double v = e.NewValue;",
-    "}"
-  ],
-  "description": "Stepper MAUI"
-},
-"MAUI Slider": {
-  "scope": "xml",
-  "prefix": "^MAUIslider",
-  "body": [
-    "<Slider x:Name=\"mySlider\" Minimum=\"0\" Maximum=\"100\" ValueChanged=\"OnSliderChanged\" />",
-    "",
-    "// C#",
-    "double val = mySlider.Value;",
-    "",
-    "void OnSliderChanged(object sender, ValueChangedEventArgs e)",
-    "{",
-    "    double v = e.NewValue;",
-    "}"
-  ],
-  "description": "Slider MAUI"
-},
-"MAUI Picker": {
-  "scope": "xml",
-  "prefix": "^MAUIpicker",
-  "body": [
-    "<Picker x:Name=\"myPicker\" Title=\"Wybierz opcję\">",
-    "    <Picker.Items>",
-    "        <x:String>Opcja 1</x:String>",
-    "        <x:String>Opcja 2</x:String>",
-    "        <x:String>Opcja 3</x:String>",
-    "    </Picker.Items>",
-    "</Picker>",
-    "",
-    "// C#",
-    "string wybrana = myPicker.SelectedItem?.ToString();",
-    "int index = myPicker.SelectedIndex;"
-  ],
-  "description": "Picker MAUI"
-},
-"MAUI RadioButton": {
-  "scope": "xml",
-  "prefix": "^MAUIradio",
-  "body": [
-    "<VerticalStackLayout>",
-    "    <RadioButton Content=\"Opcja 1\" GroupName=\"grp\" IsChecked=\"True\" CheckedChanged=\"OnRadioChanged\" />",
-    "    <RadioButton Content=\"Opcja 2\" GroupName=\"grp\" CheckedChanged=\"OnRadioChanged\" />",
-    "    <RadioButton Content=\"Opcja 3\" GroupName=\"grp\" CheckedChanged=\"OnRadioChanged\" />",
-    "</VerticalStackLayout>",
-    "",
-    "// C#",
-    "void OnRadioChanged(object sender, CheckedChangedEventArgs e)",
-    "{",
-    "    var radio = (RadioButton)sender;",
-    "    if (e.Value)",
+    "    for (int i = 0; i <= tekst.Length - wzorzec.Length; i++)",
     "    {",
-    "        string wybranaOpcja = radio.Content?.ToString();",
+    "        bool znaleziono = true;",
+    "",
+    "        for (int j = 0; j < wzorzec.Length; j++)",
+    "        {",
+    "            if (tekst[i + j] != wzorzec[j])",
+    "            {",
+    "                znaleziono = false;",
+    "                break;",
+    "            }",
+    "        }",
+    "",
+    "        if (znaleziono)",
+    "            return true;",
     "    }",
-    "}"
+    "",
+    "    return false;",
+    "}",
+    "",
+    "// Przykład",
+    "string tekst = \"Ala ma kota\";",
+    "string wzorzec = \"kot\";",
+    "",
+    "bool wynik = ZnajdzWzorzec(tekst, wzorzec);",
+    "",
+    "Console.WriteLine(wynik);"
   ],
-  "description": "RadioButton MAUI - poprawna obsługa grupy"
+  "description": "C# - wyszukiwanie wzorca w tekście bez gotowych funkcji"
 }
 }

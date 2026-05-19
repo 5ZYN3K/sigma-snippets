@@ -4,6 +4,7 @@ A collection of useful VS Code snippets for:
 
 - C#
 - .NET MAUI
+- JavaScript / TypeScript
 - React
 - XML / XAML
 
@@ -25,4 +26,4 @@ Type prefix like:
 and press TAB.
 
 ## Version
-0.0.2
+0.0.1

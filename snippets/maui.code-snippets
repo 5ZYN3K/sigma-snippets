@@ -294,18 +294,91 @@
     ],
     "description": "Operacje Listview MAUI - pełny szablon CRUD (XAML + C#)"
     },
-    "MAUI Image Simple Change": {
+        "MAUI Image Simple Change": {
     "scope": "csharp",
     "prefix": "^MAUIimage",
     "body": [
-        "<Image x:Name=\"img\" Source=\"dotnet_bot.png\" WidthRequest=\"150\" HeightRequest=\"150\" />",
+        "<Image x:Name=\"img1\" Source=\"dotnet_bot.png\" WidthRequest=\"150\" HeightRequest=\"150\">",
+        "    <Image.GestureRecognizers>",
+        "        <TapGestureRecognizer Tapped=\"KlikniecieObrazu\"/>",
+        "    </Image.GestureRecognizers>",
+        "</Image>",
+        "",
+        "<Image x:Name=\"img2\" Source=\"new.png\" WidthRequest=\"150\" HeightRequest=\"150\">",
+        "    <Image.GestureRecognizers>",
+        "        <TapGestureRecognizer Tapped=\"KlikniecieObrazu\"/>",
+        "    </Image.GestureRecognizers>",
+        "</Image>",
         "",
         "// ZMIANA OBRAZU (assets)",
-        "img.Source = \"new.png\";",
+        "img1.Source = \"new.png\";",
         "",
         "// ZMIANA OBRAZU (plik lokalny)",
-        "img.Source = ImageSource.FromFile(\"C:\\\\images\\\\pic.png\");"
+        "img2.Source = ImageSource.FromFile(\"C:\\\\images\\\\pic.png\");",
+        "",
+        "// C# - kliknięcie obrazu",
+        "private void KlikniecieObrazu(object sender, TappedEventArgs e)",
+        "{",
+        "    if(sender is Image img)",
+        "    {",
+        "        img.Opacity = 0.5;",
+        "    }",
+        "}"
     ],
-    "description": "Obraz MAUI - prosta zmiana źródła"
+    "description": "Obraz MAUI - zmiana obrazu i kliknięcie z przezroczystością"
+    },
+        "MAUI Grid Simple": {
+        "scope": "csharp",
+        "prefix": "^MAUIgrid",
+        "body": [
+            "<Grid x:Name=\"grid1\" RowDefinitions=\"*,*\" ColumnDefinitions=\"*,*\">",
+            "",
+            "    <Image Grid.Row=\"0\" Grid.Column=\"0\" x:Name=\"img1\" Source=\"image1.png\" WidthRequest=\"80\" HeightRequest=\"80\"/>",
+            "    <Image Grid.Row=\"0\" Grid.Column=\"1\" x:Name=\"img2\" Source=\"image2.png\" WidthRequest=\"80\" HeightRequest=\"80\"/>",
+            "    <Image Grid.Row=\"1\" Grid.Column=\"0\" x:Name=\"img3\" Source=\"image3.png\" WidthRequest=\"80\" HeightRequest=\"80\"/>",
+            "    <Image Grid.Row=\"1\" Grid.Column=\"1\" x:Name=\"img4\" Source=\"image4.png\" WidthRequest=\"80\" HeightRequest=\"80\"/>",
+            "",
+            "</Grid>"
+        ],
+        "description": "MAUI Grid - prosty układ 2x2 obrazów"
+    },
+        "MAUI Nested Grid (Grid in Grid)": {
+        "scope": "csharp",
+        "prefix": "^MAUIgridzagneizdzony",
+        "body": [
+            "<Grid x:Name=\"outerGrid\" RowDefinitions=\"*,*\" ColumnDefinitions=\"*,*\">",
+            "",
+            "    <Grid Grid.Row=\"0\" Grid.Column=\"0\" RowDefinitions=\"*,*\" ColumnDefinitions=\"*,*\">",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"0\" x:Name=\"img1\" Source=\"image1.png\"/>",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"1\" x:Name=\"img2\" Source=\"image2.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"0\" x:Name=\"img3\" Source=\"image3.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"1\" x:Name=\"img4\" Source=\"image4.png\"/>",
+            "    </Grid>",
+            "",
+            "    <Grid Grid.Row=\"0\" Grid.Column=\"1\" RowDefinitions=\"*,*\" ColumnDefinitions=\"*,*\">",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"0\" x:Name=\"img5\" Source=\"image5.png\"/>",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"1\" x:Name=\"img6\" Source=\"image6.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"0\" x:Name=\"img7\" Source=\"image7.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"1\" x:Name=\"img8\" Source=\"image8.png\"/>",
+            "    </Grid>",
+            "",
+            "    <Grid Grid.Row=\"1\" Grid.Column=\"0\" RowDefinitions=\"*,*\" ColumnDefinitions=\"*,*\">",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"0\" x:Name=\"img9\" Source=\"image9.png\"/>",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"1\" x:Name=\"img10\" Source=\"image10.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"0\" x:Name=\"img11\" Source=\"image11.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"1\" x:Name=\"img12\" Source=\"image12.png\"/>",
+            "    </Grid>",
+            "",
+            "    <Grid Grid.Row=\"1\" Grid.Column=\"1\" RowDefinitions=\"*,*\" ColumnDefinitions=\"*,*\">",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"0\" x:Name=\"img13\" Source=\"image13.png\"/>",
+            "        <Image Grid.Row=\"0\" Grid.Column=\"1\" x:Name=\"img14\" Source=\"image14.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"0\" x:Name=\"img15\" Source=\"image15.png\"/>",
+            "        <Image Grid.Row=\"1\" Grid.Column=\"1\" x:Name=\"img16\" Source=\"image16.png\"/>",
+            "    </Grid>",
+            "",
+            "</Grid>"
+        ],
+        "description": "MAUI Grid w Grid - zagnieżdżony układ siatki"
     }
+    
 }

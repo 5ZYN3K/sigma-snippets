@@ -1,5 +1,4 @@
 {
-//SORTOWANIA
 "Sortowanie Bąbelkowe": {
   "scope": "csharp",
   "prefix": "^sortbabelkowe",
@@ -249,7 +248,6 @@
   "description": "Sortowanie kubełkowe"
 },
 
-//ALGORYTMY
 "Silnia Iteracyjnie": {
     "scope": "csharp",
     "prefix": "^silniaiter",

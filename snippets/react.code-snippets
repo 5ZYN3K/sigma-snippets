@@ -1,1 +1,16 @@
-//TU ANTONIO ZRÓB WSZYSTKO CO WIESZ DO REACT
+{
+  "React Component": {
+    "scope": "javascriptreact",
+    "prefix": "^racjsx",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const Component = () => {",
+      "  return (<div>$1</div>);",
+      "};",
+      "",
+      "export default Component;"
+    ],
+    "description": "Przykładowy snippet React"
+  }
+}

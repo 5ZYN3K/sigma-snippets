@@ -7,7 +7,7 @@
   "type": "git",
   "url": "https://github.com/5ZYN3K/sigma-snippets.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.120.0"
   },
@@ -31,6 +31,14 @@
     {
       "language": "typescriptreact",
       "path": "./snippets/snippets.code-snippets"
+    },
+    {
+      "language": "javascriptreact",
+      "path": "./snippets/react.code-snippets"
+    },
+    {
+      "language": "typescriptreact",
+      "path": "./snippets/react.code-snippets"
     },
     {
       "language": "xaml",

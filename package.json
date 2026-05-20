@@ -3,6 +3,7 @@
   "displayName": "SigmaSnippets",
   "publisher": "sigma-Snippets",
   "description": "A collection of useful snippets for C#, .NET MAUI, React and modern web development.",
+  "icon": "mamut-icon.png",
   "repository": {
   "type": "git",
   "url": "https://github.com/5ZYN3K/sigma-snippets.git"

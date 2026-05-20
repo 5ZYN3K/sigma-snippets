@@ -47,6 +47,30 @@
      {
       "language": "xml",
       "path": "./snippets/maui.code-snippets"
+    },
+
+
+
+    
+    {
+      "language": "csharp",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "xaml",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "xml",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "javascript",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "javascriptreact",
+      "path": "./snippets/fullProject.code-snippets"
     }
   ]
 }

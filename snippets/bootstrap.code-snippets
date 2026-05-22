@@ -1,0 +1,2267 @@
+{
+  "bs-container": {
+    "prefix": "bs-container",
+    "body": [
+      "{/* Typ: Layout / Kontener | Wymaga rodzica: NIE | Główny responsywny kontener strony */}",
+      "<div className=\"container\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap container"
+  },
+
+  "bs-container-fluid": {
+    "prefix": "bs-container-fluid",
+    "body": [
+      "{/* Typ: Layout / Kontener | Wymaga rodzica: NIE | Kontener na pełną szerokość ekranu */}",
+      "<div className=\"container-fluid\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap container-fluid"
+  },
+
+  "bs-row": {
+    "prefix": "bs-row",
+    "body": [
+      "{/* Typ: Grid | Wymaga rodzica: najlepiej container/container-fluid | Tworzy wiersz siatki */}",
+      "<div className=\"container\">",
+      "  <div className=\"row\">",
+      "    $1",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap row"
+  },
+
+  "bs-row-cols-2": {
+    "prefix": "bs-row-cols-2",
+    "body": [
+      "{/* Typ: Grid | Wymaga rodzica: container | Automatycznie tworzy 2 kolumny */}",
+      "<div className=\"container\">",
+      "  <div className=\"row row-cols-2\">",
+      "    <div className=\"col\">$1</div>",
+      "    <div className=\"col\">$2</div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap row-cols-2"
+  },
+
+  "bs-row-cols-3": {
+    "prefix": "bs-row-cols-3",
+    "body": [
+      "{/* Typ: Grid | Wymaga rodzica: container | Automatycznie tworzy 3 kolumny */}",
+      "<div className=\"container\">",
+      "  <div className=\"row row-cols-3\">",
+      "    <div className=\"col\">$1</div>",
+      "    <div className=\"col\">$2</div>",
+      "    <div className=\"col\">$3</div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap row-cols-3"
+  },
+
+  "bs-col": {
+    "prefix": "bs-col",
+    "body": [
+      "{/* Typ: Grid | Wymaga rodzica: row | Automatyczna kolumna */}",
+      "<div className=\"row\">",
+      "  <div className=\"col\">",
+      "    $1",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col"
+  },
+
+  "bs-col-auto": {
+    "prefix": "bs-col-auto",
+    "body": [
+      "{/* Typ: Grid | Wymaga rodzica: row | Szerokość dopasowana do zawartości */}",
+      "<div className=\"row\">",
+      "  <div className=\"col-auto\">",
+      "    $1",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-auto"
+  },
+
+  "bs-col-1": {
+    "prefix": "bs-col-1",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-1\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-1"
+  },
+
+  "bs-col-2": {
+    "prefix": "bs-col-2",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-2\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-2"
+  },
+
+  "bs-col-3": {
+    "prefix": "bs-col-3",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-3\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-3"
+  },
+
+  "bs-col-4": {
+    "prefix": "bs-col-4",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-4\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-4"
+  },
+
+  "bs-col-5": {
+    "prefix": "bs-col-5",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-5\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-5"
+  },
+
+  "bs-col-6": {
+    "prefix": "bs-col-6",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-6\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-6"
+  },
+
+  "bs-col-7": {
+    "prefix": "bs-col-7",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-7\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-7"
+  },
+
+  "bs-col-8": {
+    "prefix": "bs-col-8",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-8\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-8"
+  },
+
+  "bs-col-9": {
+    "prefix": "bs-col-9",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-9\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-9"
+  },
+
+  "bs-col-10": {
+    "prefix": "bs-col-10",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-10\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-10"
+  },
+
+  "bs-col-11": {
+    "prefix": "bs-col-11",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-11\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-11"
+  },
+
+  "bs-col-12": {
+    "prefix": "bs-col-12",
+    "body": [
+      "<div className=\"row\">",
+      "  <div className=\"col-12\">$1</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap col-12"
+  },
+
+  "bs-col-responsive": {
+    "prefix": "bs-col-responsive",
+    "body": [
+      "{/* Typ: Grid | Responsywna kolumna */}",
+      "<div className=\"row\">",
+      "  <div className=\"col-12 col-sm-6 col-md-4 col-lg-3\">",
+      "    $1",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap responsive col"
+  },
+
+  "bs-g-0": {
+    "prefix": "bs-g-0",
+    "body": [
+      "{/* Typ: Grid | Usuwa odstępy między kolumnami */}",
+      "<div className=\"row g-0\">",
+      "  <div className=\"col\">$1</div>",
+      "  <div className=\"col\">$2</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap g-0"
+  },
+
+  "bs-g-3": {
+    "prefix": "bs-g-3",
+    "body": [
+      "{/* Typ: Grid | Dodaje odstępy między kolumnami */}",
+      "<div className=\"row g-3\">",
+      "  <div className=\"col\">$1</div>",
+      "  <div className=\"col\">$2</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap g-3"
+  },
+
+  "bs-flex": {
+    "prefix": "bs-flex",
+    "body": [
+      "{/* Typ: Flex | Włącza flexbox */}",
+      "<div className=\"d-flex\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-flex"
+  },
+
+  "bs-inline-flex": {
+    "prefix": "bs-inline-flex",
+    "body": [
+      "{/* Typ: Flex | Flex zachowujący się jak inline */}",
+      "<div className=\"d-inline-flex\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-inline-flex"
+  },
+
+  "bs-flex-row": {
+    "prefix": "bs-flex-row",
+    "body": [
+      "{/* Typ: Flex | Układ poziomy */}",
+      "<div className=\"d-flex flex-row\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-row"
+  },
+
+  "bs-flex-column": {
+    "prefix": "bs-flex-column",
+    "body": [
+      "{/* Typ: Flex | Układ pionowy */}",
+      "<div className=\"d-flex flex-column\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-column"
+  },
+
+  "bs-flex-row-reverse": {
+    "prefix": "bs-flex-row-reverse",
+    "body": [
+      "{/* Typ: Flex | Odwrócony układ poziomy */}",
+      "<div className=\"d-flex flex-row-reverse\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-row-reverse"
+  },
+
+  "bs-flex-column-reverse": {
+    "prefix": "bs-flex-column-reverse",
+    "body": [
+      "{/* Typ: Flex | Odwrócony układ pionowy */}",
+      "<div className=\"d-flex flex-column-reverse\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-column-reverse"
+  },
+
+  "bs-flex-wrap": {
+    "prefix": "bs-flex-wrap",
+    "body": [
+      "{/* Typ: Flex | Pozwala zawijać elementy */}",
+      "<div className=\"d-flex flex-wrap gap-2\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-wrap"
+  },
+
+  "bs-flex-nowrap": {
+    "prefix": "bs-flex-nowrap",
+    "body": [
+      "{/* Typ: Flex | Blokuje zawijanie elementów */}",
+      "<div className=\"d-flex flex-nowrap\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-nowrap"
+  },
+
+  "bs-flex-wrap-reverse": {
+    "prefix": "bs-flex-wrap-reverse",
+    "body": [
+      "{/* Typ: Flex | Zawijanie w odwrotnej kolejności */}",
+      "<div className=\"d-flex flex-wrap-reverse\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-wrap-reverse"
+  },
+
+  "bs-justify-start": {
+    "prefix": "bs-justify-start",
+    "body": [
+      "<div className=\"d-flex justify-content-start\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap justify-content-start"
+  },
+
+  "bs-justify-center": {
+    "prefix": "bs-justify-center",
+    "body": [
+      "<div className=\"d-flex justify-content-center\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap justify-content-center"
+  },
+
+  "bs-justify-end": {
+    "prefix": "bs-justify-end",
+    "body": [
+      "<div className=\"d-flex justify-content-end\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap justify-content-end"
+  },
+
+  "bs-justify-between": {
+    "prefix": "bs-justify-between",
+    "body": [
+      "<div className=\"d-flex justify-content-between\">",
+      "  <span>$1</span>",
+      "  <span>$2</span>",
+      "</div>"
+    ],
+    "description": "Bootstrap justify-content-between"
+  },
+
+  "bs-justify-around": {
+    "prefix": "bs-justify-around",
+    "body": [
+      "<div className=\"d-flex justify-content-around\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap justify-content-around"
+  },
+
+  "bs-justify-evenly": {
+    "prefix": "bs-justify-evenly",
+    "body": [
+      "<div className=\"d-flex justify-content-evenly\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap justify-content-evenly"
+  },
+
+  "bs-align-start": {
+    "prefix": "bs-align-start",
+    "body": [
+      "<div className=\"d-flex align-items-start\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap align-items-start"
+  },
+
+  "bs-align-center": {
+    "prefix": "bs-align-center",
+    "body": [
+      "<div className=\"d-flex align-items-center\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap align-items-center"
+  },
+
+  "bs-align-end": {
+    "prefix": "bs-align-end",
+    "body": [
+      "<div className=\"d-flex align-items-end\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap align-items-end"
+  },
+
+  "bs-align-baseline": {
+    "prefix": "bs-align-baseline",
+    "body": [
+      "<div className=\"d-flex align-items-baseline\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap align-items-baseline"
+  },
+
+  "bs-align-stretch": {
+    "prefix": "bs-align-stretch",
+    "body": [
+      "<div className=\"d-flex align-items-stretch\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap align-items-stretch"
+  },
+
+  "bs-flex-grow": {
+    "prefix": "bs-flex-grow",
+    "body": [
+      "<div className=\"d-flex\">",
+      "  <div>$1</div>",
+      "  <div className=\"flex-grow-1\">$2</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-grow-1"
+  },
+
+  "bs-flex-shrink": {
+    "prefix": "bs-flex-shrink",
+    "body": [
+      "<div className=\"d-flex\">",
+      "  <div className=\"flex-shrink-1\">$1</div>",
+      "  <div>$2</div>",
+      "</div>"
+    ],
+    "description": "Bootstrap flex-shrink-1"
+  },
+
+  "bs-gap-1": {
+    "prefix": "bs-gap-1",
+    "body": [
+      "<div className=\"d-flex gap-1\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap gap-1"
+  },
+
+  "bs-gap-2": {
+    "prefix": "bs-gap-2",
+    "body": [
+      "<div className=\"d-flex gap-2\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap gap-2"
+  },
+
+  "bs-gap-3": {
+    "prefix": "bs-gap-3",
+    "body": [
+      "<div className=\"d-flex gap-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap gap-3"
+  },
+
+  "bs-gap-4": {
+    "prefix": "bs-gap-4",
+    "body": [
+      "<div className=\"d-flex gap-4\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap gap-4"
+  },
+
+  "bs-gap-5": {
+    "prefix": "bs-gap-5",
+    "body": [
+      "<div className=\"d-flex gap-5\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap gap-5"
+  },
+
+  "bs-m-3": {
+    "prefix": "bs-m-3",
+    "body": [
+      "<div className=\"m-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap m-3"
+  },
+
+  "bs-mx-auto": {
+    "prefix": "bs-mx-auto",
+    "body": [
+      "<div className=\"w-50 mx-auto border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap mx-auto"
+  },
+
+  "bs-mt-3": {
+    "prefix": "bs-mt-3",
+    "body": [
+      "<div className=\"mt-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap mt-3"
+  },
+
+  "bs-mb-3": {
+    "prefix": "bs-mb-3",
+    "body": [
+      "<div className=\"mb-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap mb-3"
+  },
+
+  "bs-ms-3": {
+    "prefix": "bs-ms-3",
+    "body": [
+      "<div className=\"ms-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap ms-3"
+  },
+
+  "bs-me-3": {
+    "prefix": "bs-me-3",
+    "body": [
+      "<div className=\"me-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap me-3"
+  },
+
+  "bs-p-3": {
+    "prefix": "bs-p-3",
+    "body": [
+      "<div className=\"p-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap p-3"
+  },
+
+  "bs-pt-3": {
+    "prefix": "bs-pt-3",
+    "body": [
+      "<div className=\"pt-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap pt-3"
+  },
+
+  "bs-pb-3": {
+    "prefix": "bs-pb-3",
+    "body": [
+      "<div className=\"pb-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap pb-3"
+  },
+
+  "bs-ps-3": {
+    "prefix": "bs-ps-3",
+    "body": [
+      "<div className=\"ps-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap ps-3"
+  },
+
+  "bs-pe-3": {
+    "prefix": "bs-pe-3",
+    "body": [
+      "<div className=\"pe-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap pe-3"
+  },
+
+  "bs-px-3": {
+    "prefix": "bs-px-3",
+    "body": [
+      "<div className=\"px-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap px-3"
+  },
+
+  "bs-py-3": {
+    "prefix": "bs-py-3",
+    "body": [
+      "<div className=\"py-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap py-3"
+  },
+  "bs-d-block": {
+    "prefix": "bs-d-block",
+    "body": [
+      "{/* Typ: Display | Element blokowy */}",
+      "<div className=\"d-block\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-block"
+  },
+
+  "bs-d-inline": {
+    "prefix": "bs-d-inline",
+    "body": [
+      "{/* Typ: Display | Element liniowy */}",
+      "<span className=\"d-inline\">",
+      "  $1",
+      "</span>"
+    ],
+    "description": "Bootstrap d-inline"
+  },
+
+  "bs-d-inline-block": {
+    "prefix": "bs-d-inline-block",
+    "body": [
+      "{/* Typ: Display | Element inline-block */}",
+      "<div className=\"d-inline-block border p-2\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-inline-block"
+  },
+
+  "bs-d-none": {
+    "prefix": "bs-d-none",
+    "body": [
+      "{/* Typ: Display | Ukrywa element */}",
+      "<div className=\"d-none\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-none"
+  },
+
+  "bs-d-md-none": {
+    "prefix": "bs-d-md-none",
+    "body": [
+      "{/* Typ: Display Responsive | Ukrywa element od md */}",
+      "<div className=\"d-md-none\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-md-none"
+  },
+
+  "bs-d-md-block": {
+    "prefix": "bs-d-md-block",
+    "body": [
+      "{/* Typ: Display Responsive | Pokazuje element jako block od md */}",
+      "<div className=\"d-none d-md-block\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap d-md-block"
+  },
+
+  "bs-text-center": {
+    "prefix": "bs-text-center",
+    "body": [
+      "{/* Typ: Tekst | Wyśrodkowanie tekstu */}",
+      "<h1 className=\"text-center\">",
+      "  $1",
+      "</h1>"
+    ],
+    "description": "Bootstrap text-center"
+  },
+
+  "bs-text-start": {
+    "prefix": "bs-text-start",
+    "body": [
+      "{/* Typ: Tekst | Wyrównanie tekstu do lewej */}",
+      "<p className=\"text-start\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-start"
+  },
+
+  "bs-text-end": {
+    "prefix": "bs-text-end",
+    "body": [
+      "{/* Typ: Tekst | Wyrównanie tekstu do prawej */}",
+      "<p className=\"text-end\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-end"
+  },
+
+  "bs-fw-bold": {
+    "prefix": "bs-fw-bold",
+    "body": [
+      "{/* Typ: Tekst | Pogrubiony tekst */}",
+      "<p className=\"fw-bold\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fw-bold"
+  },
+
+  "bs-fw-normal": {
+    "prefix": "bs-fw-normal",
+    "body": [
+      "{/* Typ: Tekst | Normalna grubość tekstu */}",
+      "<p className=\"fw-normal\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fw-normal"
+  },
+
+  "bs-fst-italic": {
+    "prefix": "bs-fst-italic",
+    "body": [
+      "{/* Typ: Tekst | Kursywa */}",
+      "<p className=\"fst-italic\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fst-italic"
+  },
+
+  "bs-text-uppercase": {
+    "prefix": "bs-text-uppercase",
+    "body": [
+      "{/* Typ: Tekst | Wielkie litery */}",
+      "<p className=\"text-uppercase\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-uppercase"
+  },
+
+  "bs-text-lowercase": {
+    "prefix": "bs-text-lowercase",
+    "body": [
+      "{/* Typ: Tekst | Małe litery */}",
+      "<p className=\"text-lowercase\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-lowercase"
+  },
+
+  "bs-text-capitalize": {
+    "prefix": "bs-text-capitalize",
+    "body": [
+      "{/* Typ: Tekst | Każde słowo zaczyna się wielką literą */}",
+      "<p className=\"text-capitalize\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-capitalize"
+  },
+
+  "bs-fs-1": {
+    "prefix": "bs-fs-1",
+    "body": [
+      "{/* Typ: Tekst | Bardzo duży tekst */}",
+      "<p className=\"fs-1\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fs-1"
+  },
+
+  "bs-fs-2": {
+    "prefix": "bs-fs-2",
+    "body": [
+      "<p className=\"fs-2\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fs-2"
+  },
+
+  "bs-fs-3": {
+    "prefix": "bs-fs-3",
+    "body": [
+      "<p className=\"fs-3\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fs-3"
+  },
+
+  "bs-fs-4": {
+    "prefix": "bs-fs-4",
+    "body": [
+      "<p className=\"fs-4\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fs-4"
+  },
+
+  "bs-fs-5": {
+    "prefix": "bs-fs-5",
+    "body": [
+      "<p className=\"fs-5\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fs-5"
+  },
+
+  "bs-fs-6": {
+    "prefix": "bs-fs-6",
+    "body": [
+      "<p className=\"fs-6\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap fs-6"
+  },
+
+  "bs-text-primary": {
+    "prefix": "bs-text-primary",
+    "body": [
+      "{/* Typ: Kolory | Niebieski tekst */}",
+      "<p className=\"text-primary\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-primary"
+  },
+
+  "bs-text-secondary": {
+    "prefix": "bs-text-secondary",
+    "body": [
+      "<p className=\"text-secondary\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-secondary"
+  },
+
+  "bs-text-success": {
+    "prefix": "bs-text-success",
+    "body": [
+      "{/* Typ: Kolory | Zielony tekst */}",
+      "<p className=\"text-success\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-success"
+  },
+
+  "bs-text-danger": {
+    "prefix": "bs-text-danger",
+    "body": [
+      "{/* Typ: Kolory | Czerwony tekst */}",
+      "<p className=\"text-danger\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-danger"
+  },
+
+  "bs-text-warning": {
+    "prefix": "bs-text-warning",
+    "body": [
+      "<p className=\"text-warning\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-warning"
+  },
+
+  "bs-text-info": {
+    "prefix": "bs-text-info",
+    "body": [
+      "<p className=\"text-info\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-info"
+  },
+
+  "bs-text-light": {
+    "prefix": "bs-text-light",
+    "body": [
+      "{/* Typ: Kolory | Jasny tekst */}",
+      "<div className=\"bg-dark p-3\">",
+      "  <p className=\"text-light\">$1</p>",
+      "</div>"
+    ],
+    "description": "Bootstrap text-light"
+  },
+
+  "bs-text-dark": {
+    "prefix": "bs-text-dark",
+    "body": [
+      "<p className=\"text-dark\">",
+      "  $1",
+      "</p>"
+    ],
+    "description": "Bootstrap text-dark"
+  },
+
+  "bs-bg-primary": {
+    "prefix": "bs-bg-primary",
+    "body": [
+      "{/* Typ: Kolory | Niebieskie tło */}",
+      "<div className=\"bg-primary text-light p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-primary"
+  },
+
+  "bs-bg-secondary": {
+    "prefix": "bs-bg-secondary",
+    "body": [
+      "<div className=\"bg-secondary text-light p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-secondary"
+  },
+
+  "bs-bg-success": {
+    "prefix": "bs-bg-success",
+    "body": [
+      "<div className=\"bg-success text-light p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-success"
+  },
+
+  "bs-bg-danger": {
+    "prefix": "bs-bg-danger",
+    "body": [
+      "<div className=\"bg-danger text-light p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-danger"
+  },
+
+  "bs-bg-warning": {
+    "prefix": "bs-bg-warning",
+    "body": [
+      "<div className=\"bg-warning p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-warning"
+  },
+
+  "bs-bg-info": {
+    "prefix": "bs-bg-info",
+    "body": [
+      "<div className=\"bg-info p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-info"
+  },
+
+  "bs-bg-light": {
+    "prefix": "bs-bg-light",
+    "body": [
+      "<div className=\"bg-light p-3 border\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-light"
+  },
+
+  "bs-bg-dark": {
+    "prefix": "bs-bg-dark",
+    "body": [
+      "{/* Typ: Kolory | Ciemne tło */}",
+      "<div className=\"bg-dark text-light p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap bg-dark"
+  },
+  "bs-btn-primary": {
+    "prefix": "bs-btn-primary",
+    "body": [
+      "{/* Typ: Przyciski | Wymaga: btn | Główny niebieski przycisk */}",
+      "<button className=\"btn btn-primary\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-primary"
+  },
+
+  "bs-btn-secondary": {
+    "prefix": "bs-btn-secondary",
+    "body": [
+      "<button className=\"btn btn-secondary\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-secondary"
+  },
+
+  "bs-btn-success": {
+    "prefix": "bs-btn-success",
+    "body": [
+      "<button className=\"btn btn-success\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-success"
+  },
+
+  "bs-btn-danger": {
+    "prefix": "bs-btn-danger",
+    "body": [
+      "<button className=\"btn btn-danger\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-danger"
+  },
+
+  "bs-btn-warning": {
+    "prefix": "bs-btn-warning",
+    "body": [
+      "<button className=\"btn btn-warning\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-warning"
+  },
+
+  "bs-btn-info": {
+    "prefix": "bs-btn-info",
+    "body": [
+      "<button className=\"btn btn-info\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-info"
+  },
+
+  "bs-btn-light": {
+    "prefix": "bs-btn-light",
+    "body": [
+      "<button className=\"btn btn-light\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-light"
+  },
+
+  "bs-btn-dark": {
+    "prefix": "bs-btn-dark",
+    "body": [
+      "<button className=\"btn btn-dark\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-dark"
+  },
+
+  "bs-btn-outline-primary": {
+    "prefix": "bs-btn-outline-primary",
+    "body": [
+      "{/* Typ: Przyciski | Wymaga: btn | Przycisk z obramowaniem */}",
+      "<button className=\"btn btn-outline-primary\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-outline-primary"
+  },
+
+  "bs-btn-outline-danger": {
+    "prefix": "bs-btn-outline-danger",
+    "body": [
+      "<button className=\"btn btn-outline-danger\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-outline-danger"
+  },
+
+  "bs-btn-sm": {
+    "prefix": "bs-btn-sm",
+    "body": [
+      "{/* Typ: Przyciski | Wymaga: btn | Mały przycisk */}",
+      "<button className=\"btn btn-primary btn-sm\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-sm"
+  },
+
+  "bs-btn-lg": {
+    "prefix": "bs-btn-lg",
+    "body": [
+      "{/* Typ: Przyciski | Wymaga: btn | Duży przycisk */}",
+      "<button className=\"btn btn-primary btn-lg\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap btn-lg"
+  },
+
+  "bs-btn-full": {
+    "prefix": "bs-btn-full",
+    "body": [
+      "{/* Typ: Przyciski | w-100 robi przycisk na całą szerokość */}",
+      "<button className=\"btn btn-primary w-100\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap full width button"
+  },
+
+  "bs-btn-disabled": {
+    "prefix": "bs-btn-disabled",
+    "body": [
+      "{/* Typ: Przyciski | disabled blokuje kliknięcie */}",
+      "<button className=\"btn btn-secondary\" disabled>",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap disabled button"
+  },
+
+  "bs-btn-group": {
+    "prefix": "bs-btn-group",
+    "body": [
+      "{/* Typ: Przyciski | btn-group jest rodzicem dla kilku przycisków */}",
+      "<div className=\"btn-group\" role=\"group\">",
+      "  <button className=\"btn btn-primary\">$1</button>",
+      "  <button className=\"btn btn-secondary\">$2</button>",
+      "  <button className=\"btn btn-danger\">$3</button>",
+      "</div>"
+    ],
+    "description": "Bootstrap button group"
+  },
+
+  "bs-form-input": {
+    "prefix": "bs-form-input",
+    "body": [
+      "{/* Typ: Formularze | form-label + form-control | Klasyczny input */}",
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">$1</label>",
+      "  <input type=\"text\" className=\"form-control\" placeholder=\"$2\" />",
+      "</div>"
+    ],
+    "description": "Bootstrap form input"
+  },
+
+  "bs-form-email": {
+    "prefix": "bs-form-email",
+    "body": [
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">Email</label>",
+      "  <input type=\"email\" className=\"form-control\" placeholder=\"np. test@example.com\" />",
+      "</div>"
+    ],
+    "description": "Bootstrap email input"
+  },
+
+  "bs-form-password": {
+    "prefix": "bs-form-password",
+    "body": [
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">Hasło</label>",
+      "  <input type=\"password\" className=\"form-control\" placeholder=\"Podaj hasło\" />",
+      "</div>"
+    ],
+    "description": "Bootstrap password input"
+  },
+
+  "bs-form-textarea": {
+    "prefix": "bs-form-textarea",
+    "body": [
+      "{/* Typ: Formularze | textarea też używa form-control */}",
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">$1</label>",
+      "  <textarea className=\"form-control\" rows=\"3\" placeholder=\"$2\"></textarea>",
+      "</div>"
+    ],
+    "description": "Bootstrap textarea"
+  },
+
+  "bs-form-select": {
+    "prefix": "bs-form-select",
+    "body": [
+      "{/* Typ: Formularze | form-select dla listy rozwijanej */}",
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">$1</label>",
+      "  <select className=\"form-select\">",
+      "    <option value=\"\">Wybierz...</option>",
+      "    <option value=\"$2\">$3</option>",
+      "    <option value=\"$4\">$5</option>",
+      "  </select>",
+      "</div>"
+    ],
+    "description": "Bootstrap form select"
+  },
+
+  "bs-form-check": {
+    "prefix": "bs-form-check",
+    "body": [
+      "{/* Typ: Formularze | form-check jest rodzicem dla checkboxa */}",
+      "<div className=\"form-check\">",
+      "  <input className=\"form-check-input\" type=\"checkbox\" id=\"$1\" />",
+      "  <label className=\"form-check-label\" htmlFor=\"$1\">",
+      "    $2",
+      "  </label>",
+      "</div>"
+    ],
+    "description": "Bootstrap checkbox"
+  },
+
+  "bs-form-radio": {
+    "prefix": "bs-form-radio",
+    "body": [
+      "{/* Typ: Formularze | radio też używa form-check */}",
+      "<div className=\"form-check\">",
+      "  <input className=\"form-check-input\" type=\"radio\" name=\"$1\" id=\"$2\" />",
+      "  <label className=\"form-check-label\" htmlFor=\"$2\">",
+      "    $3",
+      "  </label>",
+      "</div>"
+    ],
+    "description": "Bootstrap radio"
+  },
+
+  "bs-form-invalid": {
+    "prefix": "bs-form-invalid",
+    "body": [
+      "{/* Typ: Formularze / Walidacja | is-invalid + invalid-feedback */}",
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">$1</label>",
+      "  <input type=\"text\" className=\"form-control is-invalid\" />",
+      "  <div className=\"invalid-feedback\">",
+      "    $2",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap invalid input"
+  },
+
+  "bs-form-valid": {
+    "prefix": "bs-form-valid",
+    "body": [
+      "{/* Typ: Formularze / Walidacja | is-valid + valid-feedback */}",
+      "<div className=\"mb-3\">",
+      "  <label className=\"form-label\">$1</label>",
+      "  <input type=\"text\" className=\"form-control is-valid\" />",
+      "  <div className=\"valid-feedback\">",
+      "    $2",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap valid input"
+  },
+
+  "bs-form-login": {
+    "prefix": "bs-form-login",
+    "body": [
+      "{/* Typ: Formularze | Gotowy formularz logowania */}",
+      "<form className=\"card p-4 shadow mx-auto\" style={{ maxWidth: \"400px\" }}>",
+      "  <h2 className=\"text-center mb-3\">Logowanie</h2>",
+      "",
+      "  <div className=\"mb-3\">",
+      "    <label className=\"form-label\">Email</label>",
+      "    <input type=\"email\" className=\"form-control\" placeholder=\"Podaj email\" />",
+      "  </div>",
+      "",
+      "  <div className=\"mb-3\">",
+      "    <label className=\"form-label\">Hasło</label>",
+      "    <input type=\"password\" className=\"form-control\" placeholder=\"Podaj hasło\" />",
+      "  </div>",
+      "",
+      "  <button type=\"submit\" className=\"btn btn-primary w-100\">",
+      "    Zaloguj",
+      "  </button>",
+      "</form>"
+    ],
+    "description": "Bootstrap login form"
+  },
+
+  "bs-card": {
+    "prefix": "bs-card",
+    "body": [
+      "{/* Typ: Karty | card-body musi być wewnątrz card */}",
+      "<div className=\"card\">",
+      "  <div className=\"card-body\">",
+      "    $1",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap basic card"
+  },
+
+  "bs-card-text": {
+    "prefix": "bs-card-text",
+    "body": [
+      "{/* Typ: Karty | card-title i card-text najlepiej w card-body */}",
+      "<div className=\"card\">",
+      "  <div className=\"card-body\">",
+      "    <h5 className=\"card-title\">$1</h5>",
+      "    <p className=\"card-text\">$2</p>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap card with text"
+  },
+
+  "bs-card-full": {
+    "prefix": "bs-card-full",
+    "body": [
+      "{/* Typ: Karty | Pełna karta z headerem, treścią i footerem */}",
+      "<div className=\"card shadow\">",
+      "  <div className=\"card-header\">",
+      "    $1",
+      "  </div>",
+      "  <div className=\"card-body\">",
+      "    <h5 className=\"card-title\">$2</h5>",
+      "    <p className=\"card-text\">$3</p>",
+      "    <button className=\"btn btn-primary\">$4</button>",
+      "  </div>",
+      "  <div className=\"card-footer text-muted\">",
+      "    $5",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap full card"
+  },
+
+  "bs-card-img": {
+    "prefix": "bs-card-img",
+    "body": [
+      "{/* Typ: Karty | card-img-top daje obrazek u góry karty */}",
+      "<div className=\"card\">",
+      "  <img src=\"$1\" className=\"card-img-top\" alt=\"$2\" />",
+      "  <div className=\"card-body\">",
+      "    <h5 className=\"card-title\">$3</h5>",
+      "    <p className=\"card-text\">$4</p>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap card with image"
+  },
+
+  "bs-card-product": {
+    "prefix": "bs-card-product",
+    "body": [
+      "{/* Typ: Karty | Gotowa karta produktu */}",
+      "<div className=\"card shadow-sm\">",
+      "  <img src=\"$1\" className=\"card-img-top\" alt=\"$2\" />",
+      "  <div className=\"card-body\">",
+      "    <h5 className=\"card-title\">$3</h5>",
+      "    <p className=\"card-text\">$4</p>",
+      "    <p className=\"fw-bold text-success\">$5 zł</p>",
+      "    <button className=\"btn btn-primary w-100\">Dodaj</button>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap product card"
+  },
+
+  "bs-card-grid": {
+    "prefix": "bs-card-grid",
+    "body": [
+      "{/* Typ: Karty / Grid | Karty w responsywnej siatce */}",
+      "<div className=\"container\">",
+      "  <div className=\"row g-3\">",
+      "    <div className=\"col-12 col-md-6 col-lg-4\">",
+      "      <div className=\"card h-100 shadow-sm\">",
+      "        <div className=\"card-body\">",
+      "          <h5 className=\"card-title\">$1</h5>",
+      "          <p className=\"card-text\">$2</p>",
+      "          <button className=\"btn btn-primary\">$3</button>",
+      "        </div>",
+      "      </div>",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap responsive card grid"
+  },
+  "bs-table": {
+    "prefix": "bs-table",
+    "body": [
+      "{/* Typ: Tabele | table to podstawowa klasa tabeli */}",
+      "<table className=\"table\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th>$1</th>",
+      "      <th>$2</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <td>$3</td>",
+      "      <td>$4</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Bootstrap basic table"
+  },
+
+  "bs-table-striped": {
+    "prefix": "bs-table-striped",
+    "body": [
+      "{/* Typ: Tabele | table-striped daje paskowane wiersze */}",
+      "<table className=\"table table-striped\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th>$1</th>",
+      "      <th>$2</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <td>$3</td>",
+      "      <td>$4</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Bootstrap striped table"
+  },
+
+  "bs-table-bordered": {
+    "prefix": "bs-table-bordered",
+    "body": [
+      "{/* Typ: Tabele | table-bordered dodaje obramowania */}",
+      "<table className=\"table table-bordered\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th>$1</th>",
+      "      <th>$2</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <td>$3</td>",
+      "      <td>$4</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Bootstrap bordered table"
+  },
+
+  "bs-table-hover": {
+    "prefix": "bs-table-hover",
+    "body": [
+      "{/* Typ: Tabele | table-hover podświetla wiersz po najechaniu */}",
+      "<table className=\"table table-hover\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th>$1</th>",
+      "      <th>$2</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <td>$3</td>",
+      "      <td>$4</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Bootstrap hover table"
+  },
+
+  "bs-table-dark": {
+    "prefix": "bs-table-dark",
+    "body": [
+      "{/* Typ: Tabele | table-dark daje ciemną tabelę */}",
+      "<table className=\"table table-dark\">",
+      "  <thead>",
+      "    <tr>",
+      "      <th>$1</th>",
+      "      <th>$2</th>",
+      "    </tr>",
+      "  </thead>",
+      "  <tbody>",
+      "    <tr>",
+      "      <td>$3</td>",
+      "      <td>$4</td>",
+      "    </tr>",
+      "  </tbody>",
+      "</table>"
+    ],
+    "description": "Bootstrap dark table"
+  },
+
+  "bs-table-responsive": {
+    "prefix": "bs-table-responsive",
+    "body": [
+      "{/* Typ: Tabele | table-responsive powinien otaczać table */}",
+      "<div className=\"table-responsive\">",
+      "  <table className=\"table table-striped table-hover\">",
+      "    <thead>",
+      "      <tr>",
+      "        <th>$1</th>",
+      "        <th>$2</th>",
+      "        <th>$3</th>",
+      "      </tr>",
+      "    </thead>",
+      "    <tbody>",
+      "      <tr>",
+      "        <td>$4</td>",
+      "        <td>$5</td>",
+      "        <td>$6</td>",
+      "      </tr>",
+      "    </tbody>",
+      "  </table>",
+      "</div>"
+    ],
+    "description": "Bootstrap responsive table"
+  },
+
+  "bs-table-crud": {
+    "prefix": "bs-table-crud",
+    "body": [
+      "{/* Typ: Tabele | Gotowa tabela CRUD */}",
+      "<div className=\"table-responsive\">",
+      "  <table className=\"table table-striped table-hover align-middle\">",
+      "    <thead>",
+      "      <tr>",
+      "        <th>ID</th>",
+      "        <th>Nazwa</th>",
+      "        <th>Email</th>",
+      "        <th>Akcje</th>",
+      "      </tr>",
+      "    </thead>",
+      "",
+      "    <tbody>",
+      "      <tr>",
+      "        <td>1</td>",
+      "        <td>$1</td>",
+      "        <td>$2</td>",
+      "        <td>",
+      "          <div className=\"d-flex gap-2\">",
+      "            <button className=\"btn btn-sm btn-primary\">Edytuj</button>",
+      "            <button className=\"btn btn-sm btn-danger\">Usuń</button>",
+      "          </div>",
+      "        </td>",
+      "      </tr>",
+      "    </tbody>",
+      "  </table>",
+      "</div>"
+    ],
+    "description": "Bootstrap CRUD table"
+  },
+
+  "bs-alert-primary": {
+    "prefix": "bs-alert-primary",
+    "body": [
+      "{/* Typ: Alerty | alert-primary */}",
+      "<div className=\"alert alert-primary\" role=\"alert\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap primary alert"
+  },
+
+  "bs-alert-success": {
+    "prefix": "bs-alert-success",
+    "body": [
+      "{/* Typ: Alerty | alert-success */}",
+      "<div className=\"alert alert-success\" role=\"alert\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap success alert"
+  },
+
+  "bs-alert-danger": {
+    "prefix": "bs-alert-danger",
+    "body": [
+      "{/* Typ: Alerty | alert-danger */}",
+      "<div className=\"alert alert-danger\" role=\"alert\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap danger alert"
+  },
+
+  "bs-alert-warning": {
+    "prefix": "bs-alert-warning",
+    "body": [
+      "{/* Typ: Alerty | alert-warning */}",
+      "<div className=\"alert alert-warning\" role=\"alert\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap warning alert"
+  },
+
+  "bs-alert-info": {
+    "prefix": "bs-alert-info",
+    "body": [
+      "{/* Typ: Alerty | alert-info */}",
+      "<div className=\"alert alert-info\" role=\"alert\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap info alert"
+  },
+
+  "bs-alert-dismissible": {
+    "prefix": "bs-alert-dismissible",
+    "body": [
+      "{/* Typ: Alerty | Zamykany alert */}",
+      "<div className=\"alert alert-warning alert-dismissible fade show\" role=\"alert\">",
+      "  $1",
+      "  <button",
+      "    type=\"button\"",
+      "    className=\"btn-close\"",
+      "    data-bs-dismiss=\"alert\"",
+      "  ></button>",
+      "</div>"
+    ],
+    "description": "Bootstrap dismissible alert"
+  },
+
+  "bs-border": {
+    "prefix": "bs-border",
+    "body": [
+      "{/* Typ: Border | Podstawowe obramowanie */}",
+      "<div className=\"border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap border"
+  },
+
+  "bs-border-0": {
+    "prefix": "bs-border-0",
+    "body": [
+      "{/* Typ: Border | Usuwa obramowanie */}",
+      "<div className=\"border border-0 p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap border-0"
+  },
+
+  "bs-border-top": {
+    "prefix": "bs-border-top",
+    "body": [
+      "{/* Typ: Border | Obramowanie tylko u góry */}",
+      "<div className=\"border-top p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap border-top"
+  },
+
+  "bs-border-bottom": {
+    "prefix": "bs-border-bottom",
+    "body": [
+      "{/* Typ: Border | Obramowanie tylko na dole */}",
+      "<div className=\"border-bottom p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap border-bottom"
+  },
+
+  "bs-border-primary": {
+    "prefix": "bs-border-primary",
+    "body": [
+      "{/* Typ: Border | Niebieskie obramowanie */}",
+      "<div className=\"border border-primary p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap border-primary"
+  },
+
+  "bs-border-danger": {
+    "prefix": "bs-border-danger",
+    "body": [
+      "{/* Typ: Border | Czerwone obramowanie */}",
+      "<div className=\"border border-danger p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap border-danger"
+  },
+
+  "bs-rounded": {
+    "prefix": "bs-rounded",
+    "body": [
+      "{/* Typ: Rounded | Zaokrąglone rogi */}",
+      "<div className=\"border rounded p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap rounded"
+  },
+
+  "bs-rounded-1": {
+    "prefix": "bs-rounded-1",
+    "body": [
+      "<div className=\"border rounded-1 p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap rounded-1"
+  },
+
+  "bs-rounded-2": {
+    "prefix": "bs-rounded-2",
+    "body": [
+      "<div className=\"border rounded-2 p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap rounded-2"
+  },
+
+  "bs-rounded-3": {
+    "prefix": "bs-rounded-3",
+    "body": [
+      "<div className=\"border rounded-3 p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap rounded-3"
+  },
+
+  "bs-rounded-circle": {
+    "prefix": "bs-rounded-circle",
+    "body": [
+      "{/* Typ: Rounded | Okrągły avatar */}",
+      "<img",
+      "  src=\"$1\"",
+      "  alt=\"$2\"",
+      "  className=\"rounded-circle border\"",
+      "  width=\"120\"",
+      "  height=\"120\"",
+      "/>"
+    ],
+    "description": "Bootstrap rounded-circle"
+  },
+
+  "bs-rounded-pill": {
+    "prefix": "bs-rounded-pill",
+    "body": [
+      "{/* Typ: Rounded | Mocno zaokrąglony element */}",
+      "<div className=\"border rounded-pill px-4 py-2 d-inline-block\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap rounded-pill"
+  },
+
+  "bs-shadow-sm": {
+    "prefix": "bs-shadow-sm",
+    "body": [
+      "{/* Typ: Shadow | Mały cień */}",
+      "<div className=\"shadow-sm p-3 border rounded\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap shadow-sm"
+  },
+
+  "bs-shadow": {
+    "prefix": "bs-shadow",
+    "body": [
+      "{/* Typ: Shadow | Standardowy cień */}",
+      "<div className=\"shadow p-3 border rounded\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap shadow"
+  },
+
+  "bs-shadow-lg": {
+    "prefix": "bs-shadow-lg",
+    "body": [
+      "{/* Typ: Shadow | Duży cień */}",
+      "<div className=\"shadow-lg p-3 border rounded\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap shadow-lg"
+  },
+
+  "bs-shadow-none": {
+    "prefix": "bs-shadow-none",
+    "body": [
+      "{/* Typ: Shadow | Usuwa cień */}",
+      "<div className=\"shadow-none border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap shadow-none"
+  },
+
+  "bs-info-panel": {
+    "prefix": "bs-info-panel",
+    "body": [
+      "{/* Typ: Border / Shadow | Gotowy estetyczny panel */}",
+      "<div className=\"border rounded-3 shadow-sm p-4 bg-light\">",
+      "  <h3 className=\"mb-3\">$1</h3>",
+      "  <p className=\"mb-0\">$2</p>",
+      "</div>"
+    ],
+    "description": "Bootstrap info panel"
+  },
+  "bs-w-25": {
+    "prefix": "bs-w-25",
+    "body": [
+      "{/* Typ: Width | Szerokość 25% */}",
+      "<div className=\"w-25 border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap w-25"
+  },
+
+  "bs-w-50": {
+    "prefix": "bs-w-50",
+    "body": [
+      "{/* Typ: Width | Szerokość 50% */}",
+      "<div className=\"w-50 border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap w-50"
+  },
+
+  "bs-w-75": {
+    "prefix": "bs-w-75",
+    "body": [
+      "{/* Typ: Width | Szerokość 75% */}",
+      "<div className=\"w-75 border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap w-75"
+  },
+
+  "bs-w-100": {
+    "prefix": "bs-w-100",
+    "body": [
+      "{/* Typ: Width | Szerokość 100% */}",
+      "<div className=\"w-100 border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap w-100"
+  },
+
+  "bs-h-100": {
+    "prefix": "bs-h-100",
+    "body": [
+      "{/* Typ: Height | Wysokość 100% rodzica */}",
+      "<div className=\"h-100 border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap h-100"
+  },
+
+  "bs-vh-100": {
+    "prefix": "bs-vh-100",
+    "body": [
+      "{/* Typ: Height | Wysokość całego ekranu */}",
+      "<div className=\"vh-100 d-flex justify-content-center align-items-center\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap vh-100"
+  },
+
+  "bs-mw-100": {
+    "prefix": "bs-mw-100",
+    "body": [
+      "{/* Typ: Width | Maksymalna szerokość 100% */}",
+      "<img src=\"$1\" alt=\"$2\" className=\"mw-100\" />"
+    ],
+    "description": "Bootstrap mw-100"
+  },
+
+  "bs-position-relative": {
+    "prefix": "bs-position-relative",
+    "body": [
+      "{/* Typ: Position | Element bazowy dla absolute */}",
+      "<div className=\"position-relative border p-4\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap position-relative"
+  },
+
+  "bs-position-absolute": {
+    "prefix": "bs-position-absolute",
+    "body": [
+      "{/* Typ: Position | Element pozycjonowany absolutnie */}",
+      "<div className=\"position-relative border p-5\">",
+      "  <div className=\"position-absolute top-0 end-0 bg-danger text-light px-2\">",
+      "    $1",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap position-absolute"
+  },
+
+  "bs-position-fixed": {
+    "prefix": "bs-position-fixed",
+    "body": [
+      "{/* Typ: Position | Element przyklejony do ekranu */}",
+      "<button className=\"btn btn-primary position-fixed bottom-0 end-0 m-3\">",
+      "  $1",
+      "</button>"
+    ],
+    "description": "Bootstrap position-fixed"
+  },
+
+  "bs-position-sticky": {
+    "prefix": "bs-position-sticky",
+    "body": [
+      "{/* Typ: Position | Sticky top navbar */}",
+      "<div className=\"position-sticky top-0 bg-light border p-3\">",
+      "  $1",
+      "</div>"
+    ],
+    "description": "Bootstrap position-sticky"
+  },
+
+  "bs-overlay": {
+    "prefix": "bs-overlay",
+    "body": [
+      "{/* Typ: Position | Overlay na cały ekran */}",
+      "<div",
+      "  className=\"position-fixed top-0 start-0 w-100 vh-100 bg-dark\"",
+      "  style={{ opacity: 0.5, zIndex: 1000 }}",
+      "></div>"
+    ],
+    "description": "Bootstrap overlay"
+  },
+
+  "bs-floating-btn": {
+    "prefix": "bs-floating-btn",
+    "body": [
+      "{/* Typ: Position | Pływający przycisk */}",
+      "<button",
+      "  className=\"btn btn-primary rounded-circle position-fixed bottom-0 end-0 m-4 shadow\"",
+      "  style={{ width: \"60px\", height: \"60px\" }}",
+      ">",
+      "  +",
+      "</button>"
+    ],
+    "description": "Bootstrap floating button"
+  },
+
+  "bs-badge-notification": {
+    "prefix": "bs-badge-notification",
+    "body": [
+      "{/* Typ: Position | Badge powiadomień */}",
+      "<div className=\"position-relative d-inline-block\">",
+      "  <button className=\"btn btn-primary\">",
+      "    Powiadomienia",
+      "  </button>",
+      "",
+      "  <span",
+      "    className=\"position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger\"",
+      "  >",
+      "    9+",
+      "  </span>",
+      "</div>"
+    ],
+    "description": "Bootstrap notification badge"
+  },
+
+  "bs-navbar": {
+    "prefix": "bs-navbar",
+    "body": [
+      "{/* Typ: Navbar | Podstawowy navbar */}",
+      "<nav className=\"navbar navbar-expand-lg navbar-dark bg-dark\">",
+      "  <div className=\"container\">",
+      "    <a className=\"navbar-brand\" href=\"#\">$1</a>",
+      "",
+      "    <button",
+      "      className=\"navbar-toggler\"",
+      "      type=\"button\"",
+      "      data-bs-toggle=\"collapse\"",
+      "      data-bs-target=\"#navbarNav\"",
+      "    >",
+      "      <span className=\"navbar-toggler-icon\"></span>",
+      "    </button>",
+      "",
+      "    <div className=\"collapse navbar-collapse\" id=\"navbarNav\">",
+      "      <ul className=\"navbar-nav ms-auto\">",
+      "        <li className=\"nav-item\">",
+      "          <a className=\"nav-link active\" href=\"#\">Home</a>",
+      "        </li>",
+      "",
+      "        <li className=\"nav-item\">",
+      "          <a className=\"nav-link\" href=\"#\">Produkty</a>",
+      "        </li>",
+      "",
+      "        <li className=\"nav-item\">",
+      "          <a className=\"nav-link\" href=\"#\">Kontakt</a>",
+      "        </li>",
+      "      </ul>",
+      "    </div>",
+      "  </div>",
+      "</nav>"
+    ],
+    "description": "Bootstrap navbar"
+  },
+
+  "bs-navbar-light": {
+    "prefix": "bs-navbar-light",
+    "body": [
+      "{/* Typ: Navbar | Jasny navbar */}",
+      "<nav className=\"navbar navbar-expand-lg navbar-light bg-light border-bottom\">",
+      "  <div className=\"container\">",
+      "    <a className=\"navbar-brand\" href=\"#\">$1</a>",
+      "  </div>",
+      "</nav>"
+    ],
+    "description": "Bootstrap light navbar"
+  },
+
+  "bs-sidebar": {
+    "prefix": "bs-sidebar",
+    "body": [
+      "{/* Typ: Navbar / Sidebar | Proste menu boczne */}",
+      "<div className=\"d-flex\">",
+      "  <div className=\"bg-dark text-light p-3 vh-100\" style={{ width: \"250px\" }}>",
+      "    <h4>$1</h4>",
+      "",
+      "    <ul className=\"nav flex-column\">",
+      "      <li className=\"nav-item\">",
+      "        <a className=\"nav-link text-light\" href=\"#\">Dashboard</a>",
+      "      </li>",
+      "",
+      "      <li className=\"nav-item\">",
+      "        <a className=\"nav-link text-light\" href=\"#\">Użytkownicy</a>",
+      "      </li>",
+      "    </ul>",
+      "  </div>",
+      "",
+      "  <div className=\"p-4 flex-grow-1\">",
+      "    $2",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap sidebar"
+  },
+
+  "bs-list-group": {
+    "prefix": "bs-list-group",
+    "body": [
+      "{/* Typ: Listy | list-group jako kontener listy */}",
+      "<ul className=\"list-group\">",
+      "  <li className=\"list-group-item\">$1</li>",
+      "  <li className=\"list-group-item\">$2</li>",
+      "  <li className=\"list-group-item\">$3</li>",
+      "</ul>"
+    ],
+    "description": "Bootstrap list-group"
+  },
+
+  "bs-list-group-action": {
+    "prefix": "bs-list-group-action",
+    "body": [
+      "{/* Typ: Listy | Klikalne elementy listy */}",
+      "<div className=\"list-group\">",
+      "  <button className=\"list-group-item list-group-item-action active\">",
+      "    $1",
+      "  </button>",
+      "",
+      "  <button className=\"list-group-item list-group-item-action\">",
+      "    $2",
+      "  </button>",
+      "",
+      "  <button className=\"list-group-item list-group-item-action\">",
+      "    $3",
+      "  </button>",
+      "</div>"
+    ],
+    "description": "Bootstrap clickable list-group"
+  },
+
+  "bs-todo-list": {
+    "prefix": "bs-todo-list",
+    "body": [
+      "{/* Typ: Listy | Lista TODO */}",
+      "<ul className=\"list-group\">",
+      "  <li className=\"list-group-item d-flex justify-content-between align-items-center\">",
+      "    $1",
+      "    <button className=\"btn btn-sm btn-danger\">Usuń</button>",
+      "  </li>",
+      "",
+      "  <li className=\"list-group-item d-flex justify-content-between align-items-center\">",
+      "    $2",
+      "    <button className=\"btn btn-sm btn-danger\">Usuń</button>",
+      "  </li>",
+      "</ul>"
+    ],
+    "description": "Bootstrap todo list"
+  },
+
+  "bs-modal": {
+    "prefix": "bs-modal",
+    "body": [
+      "{/* Typ: Modal | Bootstrap modal */}",
+      "<div className=\"modal fade\" id=\"$1\" tabIndex=\"-1\">",
+      "  <div className=\"modal-dialog\">",
+      "    <div className=\"modal-content\">",
+      "",
+      "      <div className=\"modal-header\">",
+      "        <h5 className=\"modal-title\">$2</h5>",
+      "",
+      "        <button",
+      "          type=\"button\"",
+      "          className=\"btn-close\"",
+      "          data-bs-dismiss=\"modal\"",
+      "        ></button>",
+      "      </div>",
+      "",
+      "      <div className=\"modal-body\">",
+      "        $3",
+      "      </div>",
+      "",
+      "      <div className=\"modal-footer\">",
+      "        <button",
+      "          type=\"button\"",
+      "          className=\"btn btn-secondary\"",
+      "          data-bs-dismiss=\"modal\"",
+      "        >",
+      "          Zamknij",
+      "        </button>",
+      "",
+      "        <button type=\"button\" className=\"btn btn-primary\">",
+      "          Zapisz",
+      "        </button>",
+      "      </div>",
+      "",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap modal"
+  },
+
+  "bs-confirm-modal": {
+    "prefix": "bs-confirm-modal",
+    "body": [
+      "{/* Typ: Modal | Modal potwierdzenia usunięcia */}",
+      "<div className=\"modal fade\" id=\"$1\" tabIndex=\"-1\">",
+      "  <div className=\"modal-dialog modal-dialog-centered\">",
+      "    <div className=\"modal-content\">",
+      "",
+      "      <div className=\"modal-header\">",
+      "        <h5 className=\"modal-title text-danger\">Potwierdzenie</h5>",
+      "",
+      "        <button",
+      "          type=\"button\"",
+      "          className=\"btn-close\"",
+      "          data-bs-dismiss=\"modal\"",
+      "        ></button>",
+      "      </div>",
+      "",
+      "      <div className=\"modal-body\">",
+      "        Czy na pewno chcesz usunąć ten element?",
+      "      </div>",
+      "",
+      "      <div className=\"modal-footer\">",
+      "        <button",
+      "          type=\"button\"",
+      "          className=\"btn btn-secondary\"",
+      "          data-bs-dismiss=\"modal\"",
+      "        >",
+      "          Anuluj",
+      "        </button>",
+      "",
+      "        <button type=\"button\" className=\"btn btn-danger\">",
+      "          Usuń",
+      "        </button>",
+      "      </div>",
+      "",
+      "    </div>",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "Bootstrap confirm modal"
+  }
+  
+}

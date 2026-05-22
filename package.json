@@ -71,6 +71,18 @@
     {
       "language": "javascriptreact",
       "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "javascriptreact",
+      "path": "./snippets/bootstrap.code-snippets"
+    },
+    {
+      "language": "typescriptreact",
+      "path": "./snippets/bootstrap.code-snippets"
+    },
+    {
+      "language": "html",
+      "path": "./snippets/bootstrap.code-snippets"
     }
   ]
 }

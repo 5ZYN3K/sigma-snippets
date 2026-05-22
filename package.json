@@ -16,39 +16,43 @@
     "Snippets"
   ],
   "contributes": {
-  "snippets": [
-    {
-      "language": "javascript",
-      "path": "./snippets/snippets.code-snippets"
-    },
-    {
-      "language": "csharp",
-      "path": "./snippets/snippets.code-snippets"
-    },
-    {
-      "language": "javascriptreact",
-      "path": "./snippets/snippets.code-snippets"
-    },
-    {
-      "language": "typescriptreact",
-      "path": "./snippets/snippets.code-snippets"
-    },
-    {
-      "language": "javascriptreact",
-      "path": "./snippets/react.code-snippets"
-    },
-    {
-      "language": "typescriptreact",
-      "path": "./snippets/react.code-snippets"
-    },
-    {
-      "language": "xaml",
-      "path": "./snippets/maui.code-snippets"
-    },
-     {
-      "language": "xml",
-      "path": "./snippets/maui.code-snippets"
-    }
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "csharp",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "csharp",
+        "path": "./snippets/csharp.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.code-snippets"
+      },
+      {
+        "language": "xaml",
+        "path": "./snippets/maui.code-snippets"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/maui.code-snippets"
+      }
   ]
 }
 }

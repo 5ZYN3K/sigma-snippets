@@ -8,7 +8,7 @@
   "type": "git",
   "url": "https://github.com/5ZYN3K/sigma-snippets.git"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -52,7 +52,39 @@
       {
         "language": "xml",
         "path": "./snippets/maui.code-snippets"
-      }
+      },
+      {
+      "language": "csharp",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "xaml",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "xml",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "javascript",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "javascriptreact",
+      "path": "./snippets/fullProject.code-snippets"
+    },
+    {
+      "language": "javascriptreact",
+      "path": "./snippets/bootstrap.code-snippets"
+    },
+    {
+      "language": "typescriptreact",
+      "path": "./snippets/bootstrap.code-snippets"
+    },
+    {
+      "language": "html",
+      "path": "./snippets/bootstrap.code-snippets"
+    }
   ]
 }
 }

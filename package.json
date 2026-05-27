@@ -10,7 +10,7 @@
   },
   "version": "0.0.2",
   "engines": {
-    "vscode": "^1.120.0"
+    "vscode": "^1.105.0"
   },
   "categories": [
     "Snippets"
@@ -20,6 +20,10 @@
       {
         "language": "javascript",
         "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react.code-snippets"
       },
       {
         "language": "csharp",
@@ -44,10 +48,6 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/react.code-snippets"
-      },
-      {
-        "language": "xaml",
-        "path": "./snippets/maui.code-snippets"
       },
       {
         "language": "xml",

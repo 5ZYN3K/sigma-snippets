@@ -58,10 +58,6 @@
       "path": "./snippets/fullProject.code-snippets"
     },
     {
-      "language": "xaml",
-      "path": "./snippets/fullProject.code-snippets"
-    },
-    {
       "language": "xml",
       "path": "./snippets/fullProject.code-snippets"
     },

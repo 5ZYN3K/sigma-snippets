@@ -6,31 +6,23 @@ A collection of useful VS Code snippets for:
 - .NET MAUI
 - JavaScript / TypeScript
 - React
-- Node.js
+- Node.js + Express
+- MySQL / mysql2
 - Bootstrap
 - XML / XAML
 
 ## Features
 
-- Fast MAUI snippets
-- CRUD templates (Node + Express + MySQL)
-- UI components boilerplate (Bootstrap, React)
-- Data structures (Stack, Queue, HashSet, LinkedList)
-- API sheets
+- MAUI UI snippets
+- CRUD templates
+- Node.js + MySQL API templates
+- Data structures
+- Bootstrap layouts
 - Productivity shortcuts
 
 ## Usage
 
-Type prefix like:
-
-- ^MAUIlistview
-- ^MAUIbutton
-- ^MAUIlabel
-- ^nodecrud
-- ^mysqlcrud
-- ^bs-container
-
-and press TAB.
+Type a prefix and press `TAB`.
 
 ## Version
-0.0.3
+0.0.4

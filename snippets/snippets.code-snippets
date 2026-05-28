@@ -1,10 +1,10 @@
 {
-"OBIEKTOWOŚĆ (INF.04) – dziedziczenie, abstrakcja, polimorfizm": {
+"OBIEKTOWOŚĆ – dziedziczenie, abstrakcja, polimorfizm": {
   "scope": "csharp",
   "prefix": "^oop",
   "body": [
     "//==============================",
-    "// PODSTAWY OOP – INF.04",
+    "// PODSTAWY OOP",
     "//==============================",
     "",
     "// KLASA BAZOWA (ABSTRAKCYJNA)",
@@ -57,7 +57,7 @@
     "}",
     "",
     "//==============================",
-    "// INTERFEJS (CZĘSTO NA INF.04)",
+    "// INTERFEJS",
     "//==============================",
     "",
     "public interface IPoruszanie",
@@ -83,7 +83,7 @@
     "}",
     "",
     "//==============================",
-    "// KLUCZOWE SŁOWA INF.04",
+    "// KLUCZOWE SŁOWA",
     "//==============================",
     "// abstract – klasa/metoda abstrakcyjna",
     "// override – nadpisanie metody",
@@ -91,9 +91,9 @@
     "// base – odwołanie do klasy bazowej",
     "// interface – kontrakt (co klasa ma robić)"
   ],
-  "description": "Ściąga OOP: dziedziczenie, abstrakcja, polimorfizm, interfejsy"
+  "description": "Przypomnienie OOP: dziedziczenie, abstrakcja, polimorfizm, interfejsy"
 },
-"MEGA obsługa plików INF.04": {
+"MEGA obsługa plików": {
   "prefix": "^plikiC#",
   "body": [
     "using System;",
@@ -213,7 +213,7 @@
   ],
   "description": "pliki C# + JSON list i tablic (serializacja/deserializacja)"
 },
-"MEGA GIT INF.04 - CAŁY ZESTAW": {
+"MEGA GIT - CAŁY ZESTAW": {
   "prefix": "^git",
   "body": [
     "//==============================",
@@ -292,9 +292,9 @@
     "//==============================",
     "git checkout $9 -- plik.txt"
   ],
-  "description": "PEŁNY MEGA SNIPPET GIT INF.04 - wszystkie komendy"
+  "description": "GIT - wszystkie najważniejsze komendy"
 },
-"Wyjaśnienie funkcji INF.04": {
+"Wyjaśnienie funkcji": {
   "prefix": "^dokumentacja",
   "body": [
     "//==============================",
@@ -326,12 +326,12 @@
   ],
   "description": "Wyjaśnienie elementów funkcji: parametry, argumenty, return, typ zwracany"
 },
-"Modyfikatory dostępu + static INF.04": {
+"Modyfikatory dostępu + static": {
   "scope": "csharp",
   "prefix": "^modyfikatorydostepu",
   "body": [
     "//==============================",
-    "// MODYFIKATORY DOSTĘPU + STATIC - INF.04",
+    "// MODYFIKATORY DOSTĘPU + STATIC",
     "//==============================",
     "",
     "// PUBLIC - dostęp wszędzie",
@@ -361,9 +361,9 @@
     "    Console.WriteLine(\"Metoda statyczna\");",
     "}"
   ],
-  "description": "Modyfikatory dostępu + static w C# (INF.04)"
+  "description": "Modyfikatory dostępu + static w C#"
 },
-"Testy jednostkowe xUnit (pełny INF.04)": {
+"Testy jednostkowe xUnit": {
   "scope": "csharp",
   "prefix": "^testyxunit",
   "body": [
@@ -411,7 +411,7 @@
     "    {",
     "        string tekst = null;",
     "        Assert.Null(tekst);",
-    "        Assert.NotNull(\"INF04\");",
+    "        Assert.NotNull(\"X\");",
     "    }",
     "",
     "    //==============================",
@@ -475,12 +475,12 @@
   ],
   "description": "xUnit pełny zestaw testów + wymagane dodanie referencji do projektu"
 },
-"Gettery i settery + metody INF.04": {
+"Gettery i settery + metody": {
   "scope": "csharp",
   "prefix": "^funkcjegetset",
   "body": [
     "//==============================",
-    "// GETTERY I SETTERY - INF.04",
+    "// GETTERY I SETTERY",
     "//==============================",
     "",
     "class Osoba",
@@ -541,14 +541,14 @@
     "    }",
     "}"
   ],
-  "description": "Gettery, settery i metody działające jak get/set (INF.04)"
+  "description": "Gettery, settery i metody działające jak get/set"
 },
-"Gettery i settery automatyczne + własności INF.04": {
+"Gettery i settery automatyczne + własności": {
   "scope": "csharp",
   "prefix": "^propgetset",
   "body": [
     "//==============================",
-    "// WŁAŚCIWOŚCI (GET; SET;) - INF.04",
+    "// WŁAŚCIWOŚCI (GET; SET;)",
     "//==============================",
     "",
     "class Osoba",
@@ -592,6 +592,6 @@
     "    }",
     "}"
   ],
-  "description": "Właściwości C# {get; set;} + full properties INF.04"
+  "description": "Właściwości C# {get; set;} + full properties"
 }
 }

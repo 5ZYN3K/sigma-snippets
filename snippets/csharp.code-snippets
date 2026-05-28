@@ -1104,11 +1104,11 @@
   ],
   "description": "Zliczanie wystąpień każdego znaku w stringu"
 },
-"Operacje na tablicach dwuwymiarowych (INF.04)": {
+"Operacje na tablicach dwuwymiarowych": {
   "scope": "csharp",
   "prefix": "^tab2d",
   "body": [
-    "//TABLICA 2D – podstawy INF.04",
+    "//TABLICA 2D",
     "",
     "//Deklaracja: int[,] tablica = new int[wiersze, kolumny];",
     "",
@@ -1219,7 +1219,7 @@
   ],
   "description": "Podstawowe operacje na tablicach dwuwymiarowych + zliczanie wystąpień"
 },
-"Tablice asocjacyjne INF.04": {
+"Tablice asocjacyjne": {
   "scope": "csharp",
   "prefix": "^tabliceAsocjacyjne/slownik",
   "body": [
@@ -1478,5 +1478,53 @@
     "}"
   ],
   "description": "C# HashSet<T> - unikalne elementy bez duplikatów"
+},
+"GADERYPOLUKI Simple Cipher": {
+  "scope": "csharp",
+  "prefix": "^gaderypoluki",
+  "body": [
+    "// GADERYPOLUKI - SZYFR PODSTAWIENIOWY",
+    "// Prosty algorytm zamiany liter parami:",
+    "// GA DE RY PO LU KI",
+    "",
+    "using System;",
+    "",
+    "class Program",
+    "{",
+    "    static string Szyfruj(string tekst)",
+    "    {",
+    "        string klucz = \"GADERYPOLUKI\";",
+    "        char[] wynik = tekst.ToCharArray();",
+    "",
+    "        for (int i = 0; i < wynik.Length; i++)",
+    "        {",
+    "            char znak = Char.ToUpper(wynik[i]);",
+    "",
+    "            int index = klucz.IndexOf(znak);",
+    "",
+    "            if (index != -1)",
+    "            {",
+    "                if (index % 2 == 0)",
+    "                    wynik[i] = klucz[index + 1];",
+    "                else",
+    "                    wynik[i] = klucz[index - 1];",
+    "            }",
+    "        }",
+    "",
+    "        return new string(wynik);",
+    "    }",
+    "",
+    "    static void Main()",
+    "    {",
+    "        Console.Write(\"Podaj tekst: \");",
+    "        string tekst = Console.ReadLine();",
+    "",
+    "        string zaszyfrowany = Szyfruj(tekst);",
+    "",
+    "        Console.WriteLine(\"Zaszyfrowany tekst: \" + zaszyfrowany);",
+    "    }",
+    "}"
+  ],
+  "description": "GADERYPOLUKI cipher - prosty szyfr podstawieniowy (encryption/decryption)"
 }
 }

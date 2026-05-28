@@ -1,7 +1,7 @@
 {
     "FormularzReact": {
         "scope": "javascript,javascriptreact",
-        "prefix": "FormularzReact",
+        "prefix": "^FormularzReact",
         "body": [
             "import { useState } from \"react\";",
             "import \"./App.css\";",
@@ -329,11 +329,11 @@
   ],
   "description": "Node.js Express CRUD API - users example (GET, POST, PUT, DELETE)"
 },
-"INF04 API Cheat Sheet": {
+"API Cheat Sheet": {
   "scope": "markdown",
   "prefix": "^NodeKomendyApi",
   "body": [
-    "# INF.04 – API CHEAT SHEET (Express + MySQL)",
+    "# API CHEAT SHEET (Express + MySQL)",
     "",
     "BASE URL:",
     "http://localhost:3000",
@@ -382,7 +382,7 @@
     "",
     "",
     "========================",
-    "ZASADA INF.04",
+    "ZASADA",
     "========================",
     "GET    → SELECT",
     "POST   → INSERT",

@@ -1,7 +1,7 @@
 {
     "MediaShopXaml": {
         "scope": "xml,xaml",
-        "prefix": "MediaShopXaml",
+        "prefix": "^MediaShopXaml",
         "body": [
             "<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
             "<ContentPage xmlns=\"http://schemas.microsoft.com/dotnet/2021/maui\"",
@@ -299,7 +299,7 @@
     },
     "MediaShopC#": {
         "scope": "csharp",
-        "prefix": "MediaShopC#",
+        "prefix": "^MediaShopC#",
         "body": [
             "using System.Collections.ObjectModel;",
             "using System.ComponentModel;",
@@ -587,7 +587,7 @@
     },
     "JobApplicationXaml": {
         "scope": "xml,xaml",
-        "prefix": "JobApplicationXaml",
+        "prefix": "^JobApplicationXaml",
         "body": [
             "<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
             "<ContentPage xmlns=\"http://schemas.microsoft.com/dotnet/2021/maui\"",
@@ -804,7 +804,7 @@
     },
     "JobApplicationC#": {
         "scope": "csharp",
-        "prefix": "JobApplicationC#",
+        "prefix": "^JobApplicationC#",
         "body": [
             "using System.Collections.ObjectModel;",
             "using System.ComponentModel;",
@@ -958,7 +958,7 @@
     },
     "DaneOsoboweReact": {
         "scope": "javascript,javascriptreact",
-        "prefix": "DaneOsoboweReact",
+        "prefix": "^DaneOsoboweReact",
         "body": [
             "import { useState } from \"react\";",
             "",
@@ -1312,7 +1312,7 @@
     },
     "MAUI Quiz 2026 XAML": {
   "scope": "xml",
-  "prefix": "QUIZ2026XAML",
+  "prefix": "^QUIZ2026XAML",
   "body": [
     "<?xml version=\"1.0\" encoding=\"utf-8\" ?>",
     "<ContentPage xmlns=\"http://schemas.microsoft.com/dotnet/2021/maui\"",
@@ -1383,7 +1383,7 @@
 },
 "MAUI Quiz 2026 C#": {
   "scope": "csharp",
-  "prefix": "QUIZ2026CS",
+  "prefix": "^QUIZ2026CS",
   "body": [
     "using System;",
     "using Microsoft.Maui.Controls;",
@@ -1563,7 +1563,7 @@
 },
 "SQLiteCRUDCSharp": {
     "scope": "csharp",
-    "prefix": "SQLiteCRUDCSharp",
+    "prefix": "^SQLiteCRUDCSharp",
     "body": [
         "// dodać paczki NuGet:",
         "// Microsoft.EntityFrameworkCore",
